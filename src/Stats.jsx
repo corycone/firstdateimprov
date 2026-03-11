@@ -231,7 +231,7 @@ function Stats({ data, onBack }) {
           <h1 className="stats-title">STATS</h1>
         </div>
         <div className="stats-content">
-          <div style={{ color: '#00ff41', textAlign: 'center', padding: '40px' }}>
+          <div style={{ color: '#7BB3E0', textAlign: 'center', padding: '40px' }}>
             No initiation data available
           </div>
         </div>
@@ -329,7 +329,7 @@ function Stats({ data, onBack }) {
                     y1={50 + i * 40}
                     x2="750"
                     y2={50 + i * 40}
-                    stroke="rgba(0, 255, 65, 0.1)"
+                    stroke="rgba(91, 155, 213, 0.2)"
                     strokeWidth="1"
                   />
                 ))}
@@ -342,7 +342,7 @@ function Stats({ data, onBack }) {
                       key={i}
                       x="35"
                       y={50 + i * 33.33 + 5}
-                      fill="#00d4ff"
+                      fill="#7BB3E0"
                       fontSize="12"
                       textAnchor="end"
                     >
@@ -360,7 +360,7 @@ function Stats({ data, onBack }) {
                     return `${x},${y}`;
                   }).join(' ');
 
-                  const colors = ['#00ff41', '#00d4ff', '#ff00ff', '#ffff00', '#ff6600', '#00ffff', '#ff0066', '#66ff00'];
+                  const colors = ['#5B9BD5', '#7BB3E0', '#4A90C8', '#A0D0F0', '#6BA5D8', '#8FC5E8', '#3A7FB8', '#9DD5F0'];
                   const color = colors[playerIdx % colors.length];
                   const isSubdued = highlightedPlayer && highlightedPlayer !== player;
 
@@ -382,7 +382,7 @@ function Stats({ data, onBack }) {
 
                 {/* Data points */}
                 {players.map((player, playerIdx) => {
-                  const colors = ['#00ff41', '#00d4ff', '#ff00ff', '#ffff00', '#ff6600', '#00ffff', '#ff0066', '#66ff00'];
+                  const colors = ['#5B9BD5', '#7BB3E0', '#4A90C8', '#A0D0F0', '#6BA5D8', '#8FC5E8', '#3A7FB8', '#9DD5F0'];
                   const color = colors[playerIdx % colors.length];
                   const isSubdued = highlightedPlayer && highlightedPlayer !== player;
 
@@ -416,7 +416,7 @@ function Stats({ data, onBack }) {
                       key={idx}
                       x={x}
                       y="280"
-                      fill="#00d4ff"
+                      fill="#7BB3E0"
                       fontSize="10"
                       textAnchor="middle"
                     >
@@ -479,7 +479,7 @@ function Stats({ data, onBack }) {
           {/* Player Pairings Heatmap */}
           <div className="chart-section">
             <h2 className="chart-title">Player Pairings Heatmap</h2>
-            <p className="chart-description">Number of scenes each pair of players performed together</p>
+            <p className="chart-description">Number of scenes each pair of players performed together. Click any cell to see all shows for that pairing.</p>
             <div className="heatmap">
               <div className="heatmap-table">
                 <table>
@@ -509,8 +509,8 @@ function Stats({ data, onBack }) {
                               key={player2} 
                               className="heatmap-cell"
                               style={{ 
-                                background: `rgba(0, 255, 65, ${intensity * 0.8})`,
-                                boxShadow: intensity > 0.5 ? `0 0 10px rgba(0, 255, 65, ${intensity})` : 'none'
+                                background: `rgba(91, 155, 213, ${intensity * 0.9})`,
+                                boxShadow: intensity > 0.5 ? `0 0 10px rgba(91, 155, 213, ${intensity})` : 'none'
                               }}
                               title={`${player1} + ${player2}: ${count} scenes`}
                               onClick={() => count > 0 && handlePairingClick(player1, player2)}
@@ -546,7 +546,7 @@ function Stats({ data, onBack }) {
                     <div className="bar-wrapper">
                       <div 
                         className="bar" 
-                        style={{ width: `${rate}%`, background: 'linear-gradient(to right, #ff00ff, #00d4ff)' }}
+                        style={{ width: `${rate}%`, background: 'linear-gradient(to right, #5B9BD5, #A0D0F0)' }}
                       >
                         <span className="bar-value">{rate.toFixed(1)}%</span>
                       </div>

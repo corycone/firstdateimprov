@@ -88,6 +88,9 @@ function Timeline({ data }) {
         <button className="stats-button" onClick={handleStatsClick}>
           STATS
         </button>
+        <div className="instruction-text">
+          Click a show to see details
+        </div>
         <div className="shows-grid-container">
           <div className="shows-grid">
             {data.games.map((game, idx) => (
