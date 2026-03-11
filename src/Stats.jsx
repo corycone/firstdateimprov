@@ -1,6 +1,7 @@
 import { useMemo, useState, useEffect } from 'react';
 import * as XLSX from 'xlsx';
 import './Stats.css';
+import excelFileUrl from './assets/First Date Improv Stats.xlsx?url';
 
 function Stats({ data, onBack }) {
   const [hoveredPlayer, setHoveredPlayer] = useState(null);
@@ -13,7 +14,7 @@ function Stats({ data, onBack }) {
     // Load initiation data from Excel
     const loadExcelInitiations = async () => {
       try {
-        const response = await fetch('/src/assets/First Date Improv Stats.xlsx');
+        const response = await fetch(excelFileUrl);
         const arrayBuffer = await response.arrayBuffer();
         const workbook = XLSX.read(arrayBuffer, { type: 'array' });
         const worksheet = workbook.Sheets['First Date'];
