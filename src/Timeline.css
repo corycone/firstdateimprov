@@ -1006,6 +1006,8 @@
   .show-content {
     padding: 15px;
     gap: 15px;
+    overflow-y: auto;
+    max-height: calc(100vh - 200px);
   }
 
   .stage-area {
@@ -1027,6 +1029,7 @@
     padding: 0 10px;
     min-width: 0;
     width: 100%;
+    overflow: visible;
   }
 
   .scenes-timeline-label {
@@ -1035,23 +1038,25 @@
   }
 
   .scenes-hierarchy {
-    gap: 12px;
-    padding-top: 15px;
+    gap: 8px;
+    padding-top: 400px;
     width: 100%;
+    overflow: visible;
   }
 
   .scene-row {
     gap: 6px;
     width: 100%;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: center;
   }
 
   .scene-card {
-    min-width: 0;
-    max-width: none;
-    flex: 1 1 calc(33.333% - 4px);
-    padding: 10px 8px;
-    font-size: 0.8rem;
+    min-width: 60px;
+    max-width: 120px;
+    flex: 0 1 auto;
+    padding: 8px 6px;
+    font-size: 0.75rem;
   }
   }
 
@@ -1148,7 +1153,7 @@
   .scenes-timeline {
     flex-direction: column;
   }
-}
+
 
 @media (max-width: 480px) {
   .team-name {
@@ -1208,19 +1213,21 @@
   }
 
   .scenes-hierarchy {
-    gap: 8px;
+    gap: 6px;
     padding-top: 10px;
   }
 
   .scene-row {
     gap: 4px;
+    flex-wrap: nowrap;
   }
 
   .scene-card {
-    flex: 1 1 calc(50% - 2px);
-    max-width: none;
-    padding: 8px 6px;
-    font-size: 0.75rem;
+    min-width: 50px;
+    max-width: 100px;
+    flex: 0 1 auto;
+    padding: 6px 4px;
+    font-size: 0.7rem;
   }
 
   .scene-card-type {
@@ -1267,7 +1274,6 @@
   .scroll-indicator-fixed {
     font-size: 2rem;
   }
-}
 
   .shows-grid-container {
     padding: 30px 20px 60px 20px;
@@ -1294,6 +1300,7 @@
     font-size: 0.7rem;
     padding: 3px 8px;
   }
+}
 
 
 /* Tablet responsive for grid */
