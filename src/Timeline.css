@@ -258,11 +258,11 @@
 }
 
 .player-card.highlighted {
-  background: rgba(212, 175, 55, 0.25);
+  background: rgba(77, 208, 225, 0.25);
   border-color: var(--theater-gold);
   color: var(--theater-gold);
   text-shadow: none;
-  box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+  box-shadow: 0 0 15px rgba(77, 208, 225, 0.5);
   transform: scale(1.1);
 }
 
@@ -316,15 +316,15 @@
 
 .player-card-stage {
   padding: 12px 20px;
-  background: rgba(212, 175, 55, 0.2);
+  background: rgba(77, 208, 225, 0.2);
   border: 3px solid var(--theater-gold);
   border-radius: 8px;
   color: var(--theater-gold);
   font-size: 1.1rem;
   font-weight: bold;
   letter-spacing: 1px;
-  text-shadow: 0 0 10px rgba(212, 175, 55, 0.6);
-  box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+  text-shadow: 0 0 10px rgba(77, 208, 225, 0.6);
+  box-shadow: 0 0 15px rgba(77, 208, 225, 0.3);
   animation: slideOnStage 0.5s ease-out;
 }
 
@@ -438,9 +438,9 @@
 }
 
 .scene-card.selected {
-  background: rgba(212, 175, 55, 0.2);
+  background: rgba(77, 208, 225, 0.2);
   border-color: var(--theater-gold);
-  box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+  box-shadow: 0 0 15px rgba(77, 208, 225, 0.5);
 }
 
 .scene-card.has-metadata {
@@ -452,15 +452,15 @@
 }
 
 .scene-card.player-highlighted {
-  background: rgba(212, 175, 55, 0.25);
+  background: rgba(77, 208, 225, 0.25);
   border-color: var(--theater-gold);
-  box-shadow: 0 0 20px rgba(212, 175, 55, 0.6);
+  box-shadow: 0 0 20px rgba(77, 208, 225, 0.6);
   transform: translateY(-5px);
 }
 
 .scene-card.player-highlighted .scene-card-type {
   color: var(--theater-gold);
-  text-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+  text-shadow: 0 0 10px rgba(77, 208, 225, 0.5);
 }
 
 .scene-card-type {
