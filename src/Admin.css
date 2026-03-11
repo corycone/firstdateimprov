@@ -1,0 +1,620 @@
+.admin-container {
+  background: #0a0a0a;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: 'Courier New', monospace;
+  color: #00ff41;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #00ff41;
+  margin-bottom: 30px;
+}
+
+.admin-header-actions {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.view-toggle {
+  display: flex;
+  gap: 0;
+  border: 2px solid #00ff41;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.toggle-btn {
+  padding: 10px 20px;
+  background: transparent;
+  color: #00ff41;
+  border: none;
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-right: 2px solid #00ff41;
+}
+
+.toggle-btn:last-child {
+  border-right: none;
+}
+
+.toggle-btn.active {
+  background: #00ff41;
+  color: #0a0a0a;
+}
+
+.toggle-btn:hover:not(.active) {
+  background: rgba(0, 255, 65, 0.1);
+}
+
+.admin-title {
+  font-size: 2rem;
+  color: #00ff41;
+  margin: 0;
+  text-shadow: 0 0 20px #00ff41;
+  letter-spacing: 3px;
+}
+
+.admin-back-link {
+  color: #00d4ff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  border: 2px solid #00d4ff;
+  border-radius: 4px;
+  transition: all 0.3s;
+  text-shadow: 0 0 10px #00d4ff;
+}
+
+.admin-back-link:hover {
+  background: #00d4ff;
+  color: #0a0a0a;
+  box-shadow: 0 0 20px #00d4ff;
+}
+
+.admin-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.admin-form-section,
+.admin-output-section {
+  background: rgba(0, 255, 65, 0.03);
+  border: 2px solid #00ff41;
+  border-radius: 8px;
+  padding: 25px;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  color: #00d4ff;
+  margin: 0 0 20px 0;
+  text-shadow: 0 0 15px #00d4ff;
+  letter-spacing: 2px;
+}
+
+.subsection-title {
+  font-size: 1.2rem;
+  color: #00ff41;
+  margin: 20px 0 15px 0;
+  text-shadow: 0 0 10px #00ff41;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #00d4ff;
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid #00ff41;
+  border-radius: 4px;
+  color: #00ff41;
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #00d4ff;
+  box-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+}
+
+.scores-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.form-group-inline {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group-inline label {
+  margin-bottom: 5px;
+  color: #00d4ff;
+  font-size: 0.85rem;
+}
+
+.form-group-inline input {
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid #00ff41;
+  border-radius: 4px;
+  color: #00ff41;
+  font-family: 'Courier New', monospace;
+}
+
+.btn-add,
+.btn-copy,
+.btn-clear {
+  padding: 12px 24px;
+  background: transparent;
+  border: 2px solid #00ff41;
+  border-radius: 4px;
+  color: #00ff41;
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-shadow: 0 0 10px #00ff41;
+}
+
+.btn-add {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.btn-add:hover,
+.btn-copy:hover,
+.btn-clear:hover {
+  background: #00ff41;
+  color: #0a0a0a;
+  box-shadow: 0 0 20px #00ff41;
+}
+
+.btn-copy:disabled,
+.btn-clear:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.btn-copy:disabled:hover,
+.btn-clear:disabled:hover {
+  background: transparent;
+  color: #00ff41;
+  box-shadow: none;
+}
+
+.output-instructions {
+  color: #00d4ff;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.csv-output {
+  width: 100%;
+  min-height: 400px;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.7);
+  border: 2px solid #00d4ff;
+  border-radius: 4px;
+  color: #00ff41;
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+  resize: vertical;
+  margin-bottom: 15px;
+}
+
+.csv-output:focus {
+  outline: none;
+  border-color: #ff00ff;
+  box-shadow: 0 0 10px rgba(255, 0, 255, 0.3);
+}
+
+.output-actions {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-copy {
+  flex: 1;
+  border-color: #00d4ff;
+  color: #00d4ff;
+  text-shadow: 0 0 10px #00d4ff;
+}
+
+.btn-copy:hover {
+  background: #00d4ff;
+  box-shadow: 0 0 20px #00d4ff;
+}
+
+.btn-clear {
+  flex: 1;
+  border-color: #ff00ff;
+  color: #ff00ff;
+  text-shadow: 0 0 10px #ff00ff;
+}
+
+.btn-clear:hover {
+  background: #ff00ff;
+  box-shadow: 0 0 20px #ff00ff;
+}
+
+.admin-help {
+  background: rgba(0, 212, 255, 0.05);
+  border: 2px solid #00d4ff;
+  border-radius: 8px;
+  padding: 25px;
+}
+
+.admin-help h3 {
+  color: #00d4ff;
+  margin: 0 0 15px 0;
+  text-shadow: 0 0 10px #00d4ff;
+}
+
+.admin-help ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-help li {
+  color: #00ff41;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.admin-help li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: #00d4ff;
+}
+
+.admin-help strong {
+  color: #00d4ff;
+}
+
+/* Edit View */
+.admin-edit-view {
+  background: rgba(0, 255, 65, 0.03);
+  border: 2px solid #00ff41;
+  border-radius: 8px;
+  padding: 25px;
+}
+
+.edit-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.btn-download {
+  padding: 12px 24px;
+  background: transparent;
+  border: 2px solid #00d4ff;
+  border-radius: 4px;
+  color: #00d4ff;
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-shadow: 0 0 10px #00d4ff;
+}
+
+.btn-download:hover {
+  background: #00d4ff;
+  color: #0a0a0a;
+  box-shadow: 0 0 20px #00d4ff;
+}
+
+.loading {
+  color: #00d4ff;
+  text-align: center;
+  padding: 40px;
+  font-size: 1.2rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 600px;
+  border: 2px solid #00d4ff;
+  border-radius: 4px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.data-table thead {
+  position: sticky;
+  top: 0;
+  background: #0a0a0a;
+  z-index: 10;
+}
+
+.data-table th {
+  padding: 12px 8px;
+  text-align: left;
+  color: #00d4ff;
+  border-bottom: 2px solid #00d4ff;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.data-table td {
+  padding: 8px;
+  border-bottom: 1px solid rgba(0, 255, 65, 0.2);
+}
+
+.data-table input {
+  width: 100%;
+  min-width: 80px;
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #00ff41;
+  border-radius: 3px;
+  color: #00ff41;
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+}
+
+.data-table input:focus {
+  outline: none;
+  border-color: #00d4ff;
+  box-shadow: 0 0 5px rgba(0, 212, 255, 0.3);
+}
+
+.data-table tr:hover {
+  background: rgba(0, 255, 65, 0.05);
+}
+
+.btn-delete {
+  padding: 6px 10px;
+  background: transparent;
+  border: 2px solid #ff00ff;
+  border-radius: 3px;
+  color: #ff00ff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-delete:hover {
+  background: #ff00ff;
+  color: #0a0a0a;
+  box-shadow: 0 0 10px #ff00ff;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .admin-content {
+    grid-template-columns: 1fr;
+  }
+
+  .scores-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .admin-header-actions {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .view-toggle {
+    width: 100%;
+  }
+
+  .toggle-btn {
+    flex: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .admin-container {
+    padding: 15px;
+  }
+
+  .admin-header {
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  .admin-title {
+    font-size: 1.5rem;
+  }
+
+  .admin-back-link {
+    font-size: 0.95rem;
+    padding: 8px 16px;
+  }
+
+  .admin-form-section,
+  .admin-output-section,
+  .admin-help,
+  .admin-edit-view {
+    padding: 20px;
+  }
+
+  .section-title {
+    font-size: 1.2rem;
+  }
+
+  .subsection-title {
+    font-size: 1rem;
+  }
+
+  .scores-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .form-group-inline label {
+    font-size: 0.8rem;
+  }
+
+  .form-group-inline input {
+    padding: 6px;
+  }
+
+  .btn-add,
+  .btn-copy,
+  .btn-clear,
+  .btn-download {
+    padding: 10px 18px;
+    font-size: 0.9rem;
+  }
+
+  .output-actions {
+    flex-direction: column;
+  }
+
+  .csv-output {
+    min-height: 300px;
+    font-size: 0.75rem;
+  }
+  
+  .edit-header {
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+  
+  .table-wrapper {
+    max-height: 400px;
+  }
+
+  .data-table {
+    font-size: 0.75rem;
+  }
+
+  .data-table th,
+  .data-table td {
+    padding: 6px 4px;
+  }
+
+  .data-table input {
+    min-width: 60px;
+    padding: 4px;
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .admin-container {
+    padding: 10px;
+  }
+
+  .admin-title {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+  }
+
+  .admin-back-link {
+    font-size: 0.85rem;
+    padding: 6px 12px;
+  }
+
+  .admin-form-section,
+  .admin-output-section,
+  .admin-help,
+  .admin-edit-view {
+    padding: 15px;
+  }
+
+  .section-title {
+    font-size: 1rem;
+  }
+
+  .subsection-title {
+    font-size: 0.9rem;
+  }
+
+  .form-group label {
+    font-size: 0.85rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+
+  .toggle-btn {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+  }
+
+  .btn-add,
+  .btn-copy,
+  .btn-clear,
+  .btn-download {
+    padding: 8px 14px;
+    font-size: 0.85rem;
+  }
+
+  .csv-output {
+    min-height: 250px;
+    padding: 10px;
+    font-size: 0.7rem;
+  }
+
+  .output-instructions {
+    font-size: 0.8rem;
+  }
+
+  .admin-help li {
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+  }
+
+  .data-table {
+    font-size: 0.7rem;
+  }
+
+  .data-table th,
+  .data-table td {
+    padding: 4px 2px;
+  }
+
+  .btn-delete {
+    padding: 4px 8px;
+    font-size: 0.85rem;
+  }
+}
