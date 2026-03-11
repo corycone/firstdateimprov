@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Timeline from './Timeline';
+import masterDataUrl from './assets/master-data.csv?url';
 
 function MasterDataParser() {
   const [data, setData] = useState(null);
@@ -12,7 +13,7 @@ function MasterDataParser() {
 
   const loadData = async () => {
     try {
-      const response = await fetch('/src/assets/master-data.csv');
+      const response = await fetch(masterDataUrl);
       const csvText = await response.text();
       const parsedData = parseMasterData(csvText);
       setData(parsedData);
