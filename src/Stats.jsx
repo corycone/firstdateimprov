@@ -17,9 +17,12 @@ function Stats({ data, onBack }) {
         const response = await fetch(excelFileUrl);
         const arrayBuffer = await response.arrayBuffer();
         const workbook = XLSX.read(arrayBuffer, { type: 'array' });
-        const worksheet = workbook.Sheets['First Date'];
+        // The workbook stores shows in the "Shows" sheet, laid out as two shows
+        // side-by-side per row block (cols 0-9 and 10-19). Fall back to the legacy
+        // "First Date" sheet name if present.
+        const worksheet = workbook.Sheets['Shows'] || workbook.Sheets['First Date'];
         const jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
-        
+
         const initiations = parseExcelInitiations(jsonData);
         setExcelInitiations(initiations);
       } catch (err) {
@@ -31,6 +34,7 @@ function Stats({ data, onBack }) {
   }, []);
 
   const parseExcelInitiations = (excelData) => {
+    // Player initials -> full name (includes newer players Brooke/Mindy/Taylor)
     const playerNames = {
       'CC': 'Cory',
       'TP': 'Teresa',
@@ -39,62 +43,69 @@ function Stats({ data, onBack }) {
       'JH': 'Jay',
       'SK': 'Sean',
       'LT': 'Lisa',
-      'ZM': 'Zach'
+      'ZM': 'Zach',
+      'BT': 'Brooke',
+      'MK': 'Mindy',
+      'TM': 'Taylor'
     };
 
     const initiationsByShow = {};
-    let currentGame = null;
-    let currentPlayers = [];
-    let currentDate = null;
 
-    for (let i = 0; i < excelData.length; i++) {
-      const row = excelData[i];
-      if (!row || row.length === 0) continue;
+    // Find the show date from data.games (loaded from master-data.csv) by title.
+    const findDate = (gameName) => {
+      const matched = data?.games?.find(
+        g => g.name.toUpperCase() === gameName.toUpperCase()
+      );
+      return matched?.date || 'Unknown';
+    };
 
-      const firstCell = String(row[0] || '').trim();
+    // Parse a single show block that starts at a header row and a column offset.
+    // Header row holds the quoted title and player initials; the "Initiations"
+    // row later in the same block holds per-player counts.
+    const parseBlock = (headerRow, colStart) => {
+      const header = excelData[headerRow] || [];
+      const rawTitle = String(header[colStart] || '').trim();
+      if (!rawTitle.startsWith('"')) return;
+      const gameName = rawTitle.replace(/"/g, '').trim();
+      if (!gameName || gameName.toLowerCase() === 'legend') return;
 
-      // Game title row
-      if (firstCell.startsWith('"') && firstCell.endsWith('"')) {
-        const gameName = firstCell.replace(/"/g, '');
-        if (gameName.toLowerCase() === 'legend') continue;
-
-        currentGame = gameName;
-        currentPlayers = [];
-        
-        for (let j = 1; j < row.length; j++) {
-          const cell = String(row[j] || '').trim();
-          if (!cell || cell.startsWith('"')) break;
-          currentPlayers.push(playerNames[cell] || cell);
-        }
-
-        // Try to find date from data.games with case-insensitive matching
-        const matchedGame = data?.games?.find(g => 
-          g.name.toUpperCase() === gameName.toUpperCase()
-        );
-        currentDate = matchedGame?.date || 'Unknown';
-
-        initiationsByShow[currentGame] = {
-          date: currentDate,
-          initiations: {}
-        };
-        continue;
+      // Map each column (colStart+1 .. colStart+8) to a player name.
+      const colPlayers = {}; // columnIndex -> playerName
+      for (let c = colStart + 1; c < colStart + 9; c++) {
+        const init = String(header[c] || '').trim();
+        const name = playerNames[init];
+        if (name) colPlayers[c] = name;
       }
 
-      if (!currentGame) continue;
-
-      // Initiations row
-      if (firstCell === 'Initiations') {
-        row.slice(1).forEach((count, idx) => {
-          if (count !== undefined && count !== '' && currentPlayers[idx]) {
-            const player = currentPlayers[idx];
-            const initiationCount = parseInt(count) || 0;
-            if (initiationCount > 0) {
-              initiationsByShow[currentGame].initiations[player] = initiationCount;
+      const initiations = {};
+      // Scan rows below the header until the block ends (blank first cell / next title).
+      for (let i = headerRow + 1; i < excelData.length; i++) {
+        const row = excelData[i] || [];
+        const first = String(row[colStart] || '').trim();
+        // A new quoted title in this column means a new block started -> stop.
+        if (first.startsWith('"')) break;
+        if (first === 'Initiations') {
+          Object.entries(colPlayers).forEach(([col, player]) => {
+            const val = row[col];
+            if (val !== undefined && val !== '') {
+              const count = parseInt(val) || 0;
+              if (count > 0) initiations[player] = count;
             }
-          }
-        });
-        continue;
+          });
+          break; // one Initiations row per block
+        }
       }
+
+      initiationsByShow[gameName] = { date: findDate(gameName), initiations };
+    };
+
+    // Identify block header rows: a quoted title appears in col 0 or col 10.
+    for (let i = 0; i < excelData.length; i++) {
+      const row = excelData[i] || [];
+      const L = String(row[0] || '');
+      const R = String(row[10] || '');
+      if (L.startsWith('"')) parseBlock(i, 0);
+      if (R.startsWith('"')) parseBlock(i, 10);
     }
 
     console.log('📊 Loaded Excel initiations:', initiationsByShow);

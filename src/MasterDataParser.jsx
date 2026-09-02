@@ -64,7 +64,7 @@ function MasterDataParser() {
     console.log('Column indices:', { dateIdx, titleIdx, sceneIdx, sceneTitleIdx, playersIdx, initiationsIdx });
     
     // Player columns
-    const playerColumns = ['Cory', 'Teresa', 'Jesa', 'Brendan', 'Jay', 'Sean', 'Lisa', 'Zach'];
+    const playerColumns = ['Cory', 'Teresa', 'Jesa', 'Brendan', 'Jay', 'Sean', 'Lisa', 'Zach', 'Brooke', 'Mindy', 'Taylor'];
     const playerIndices = playerColumns.map(name => headers.indexOf(name));
     
     const showsMap = {};
@@ -188,7 +188,10 @@ function MasterDataParser() {
       'Jay': 'JH',
       'Sean': 'SK',
       'Lisa': 'LT',
-      'Zach': 'ZM'
+      'Zach': 'ZM',
+      'Brooke': 'BT',
+      'Mindy': 'MK',
+      'Taylor': 'TM'
     };
     return initialsMap[name] || name.substring(0, 2).toUpperCase();
   };
