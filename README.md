@@ -40,7 +40,7 @@ npm run preview
 
 ## Deployment
 
-This app is deployed to GitHub Pages at: https://corysone.github.io/firstdateimprov/
+This app is deployed to GitHub Pages at: https://corycone.github.io/firstdateimprov/
 
 To deploy manually:
 ```bash
@@ -59,11 +59,15 @@ The app reads show data from `src/assets/master-data.csv` which includes:
 
 ## Team Members
 
+- Cory
+- Teresa
+- Jesa
+- Brendan
+- Jay
 - Sean
 - Lisa
-- Jesa
-- Teresa
 - Zach
-- Cory
-- Brendan
+- Brooke
+- Mindy
+- Taylor
 
