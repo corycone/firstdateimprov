@@ -1,0 +1,7 @@
+/* Radial fingerprint. React owns geometry; CSS keeps the display tidy and
+   mirrors the mandala's dark-ground, serif styling. */
+.fingerprint {
+  display: block;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  overflow: visible;
+}
