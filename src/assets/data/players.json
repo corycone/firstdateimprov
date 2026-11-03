@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Cory",
+    "initials": "CC",
+    "showsAppeared": 25,
+    "totalInitiations": 51,
+    "totalWalkons": 48.5,
+    "totalFullJoins": 41,
+    "hosts": 5,
+    "gets": 6
+  },
+  {
+    "name": "Teresa",
+    "initials": "TP",
+    "showsAppeared": 23,
+    "totalInitiations": 29,
+    "totalWalkons": 38,
+    "totalFullJoins": 34,
+    "hosts": 3,
+    "gets": 2
+  },
+  {
+    "name": "Jesa",
+    "initials": "JM",
+    "showsAppeared": 24,
+    "totalInitiations": 41,
+    "totalWalkons": 32.5,
+    "totalFullJoins": 35,
+    "hosts": 4,
+    "gets": 5
+  },
+  {
+    "name": "Brendan",
+    "initials": "BM",
+    "showsAppeared": 25,
+    "totalInitiations": 56,
+    "totalWalkons": 37,
+    "totalFullJoins": 45,
+    "hosts": 4,
+    "gets": 5
+  },
+  {
+    "name": "Sean",
+    "initials": "SK",
+    "showsAppeared": 23,
+    "totalInitiations": 47,
+    "totalWalkons": 22,
+    "totalFullJoins": 28,
+    "hosts": 4,
+    "gets": 2
+  },
+  {
+    "name": "Brooke",
+    "initials": "BT",
+    "showsAppeared": 8,
+    "totalInitiations": 11,
+    "totalWalkons": 10,
+    "totalFullJoins": 11,
+    "hosts": 2,
+    "gets": 1
+  },
+  {
+    "name": "Mindy",
+    "initials": "MK",
+    "showsAppeared": 9,
+    "totalInitiations": 15,
+    "totalWalkons": 12,
+    "totalFullJoins": 10,
+    "hosts": 2,
+    "gets": 1
+  },
+  {
+    "name": "Taylor",
+    "initials": "TM",
+    "showsAppeared": 7,
+    "totalInitiations": 13,
+    "totalWalkons": 7.5,
+    "totalFullJoins": 13,
+    "hosts": 0,
+    "gets": 1
+  },
+  {
+    "name": "Lisa",
+    "initials": "LT",
+    "showsAppeared": 11,
+    "totalInitiations": 21,
+    "totalWalkons": 7,
+    "totalFullJoins": 14,
+    "hosts": 2,
+    "gets": 1
+  },
+  {
+    "name": "Zach",
+    "initials": "ZM",
+    "showsAppeared": 7,
+    "totalInitiations": 10,
+    "totalWalkons": 7,
+    "totalFullJoins": 5,
+    "hosts": 0,
+    "gets": 0
+  },
+  {
+    "name": "Jay",
+    "initials": "JH",
+    "showsAppeared": 2,
+    "totalInitiations": 1,
+    "totalWalkons": 3,
+    "totalFullJoins": 4,
+    "hosts": 0,
+    "gets": 1
+  }
+]

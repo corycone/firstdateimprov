@@ -1,0 +1,27 @@
+date,host,hostGuest,hostNote,wordGetter
+2025-11-06,Andy,true,,Cory
+2025-11-20,Andy,true,,Lisa
+2025-12-04,Sean,false,,Brendan
+2025-12-18,Cory,false,,Jay
+2026-01-08,Brendan,false,,Cory
+2026-01-22,Jesa,false,,Brendan
+2026-02-05,Lisa,false,,Jesa
+2026-02-19,Cory,false,,Brendan
+2026-03-05,Jesa,false,,Brendan
+2026-03-19,Brendan,false,,
+2026-04-02,Teresa,false,,Cory
+2026-04-16,Lisa,false,,Brendan
+2026-04-30,Sean,false,midshow,Sean
+2026-05-07,Brendan,false,,Cory
+2026-05-21,Cory,false,,Cory
+2026-06-04,Jesa,false,,Jesa
+2026-06-18,Teresa,false,,Cory
+2026-07-02,Cory,false,,Jesa
+2026-07-16,Sean,false,,Teresa
+2026-07-29,Heather,true,,Mindy
+2026-08-06,Teresa+Brooke,false,,Brooke
+2026-08-20,Jesa + Mindy,false,,Taylor
+2026-09-03,Brendan,false,,Jesa
+2026-09-17,Mindy + Brooke,false,,Sean
+2026-10-15,Sean,false,,Teresa
+2026-10-29,Cory,false,,Jesa

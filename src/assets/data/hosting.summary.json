@@ -1,0 +1,57 @@
+[
+  {
+    "player": "Cory",
+    "hosts": 5,
+    "gets": 6
+  },
+  {
+    "player": "Teresa",
+    "hosts": 3,
+    "gets": 2
+  },
+  {
+    "player": "Jesa",
+    "hosts": 4,
+    "gets": 5
+  },
+  {
+    "player": "Brendan",
+    "hosts": 4,
+    "gets": 5
+  },
+  {
+    "player": "Sean",
+    "hosts": 4,
+    "gets": 2
+  },
+  {
+    "player": "Brooke",
+    "hosts": 2,
+    "gets": 1
+  },
+  {
+    "player": "Mindy",
+    "hosts": 2,
+    "gets": 1
+  },
+  {
+    "player": "Taylor",
+    "hosts": 0,
+    "gets": 1
+  },
+  {
+    "player": "Lisa",
+    "hosts": 2,
+    "gets": 1
+  },
+  {
+    "player": "Zach",
+    "hosts": 0,
+    "gets": 0
+  },
+  {
+    "player": "Jay",
+    "hosts": 0,
+    "gets": 1
+  }
+]

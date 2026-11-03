@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Workflow agent task artifacts and throwaway mock scaffolding
+.agents/
+mocks/

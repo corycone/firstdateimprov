@@ -1,10 +1,10 @@
 .mandala-wrap {
   position: relative;
-  /* Size to the available width so the viz is big; it may run taller than the
-     viewport (fine — this becomes a scrolly). Capped so it doesn't get absurd
-     on ultra-wide screens. */
+  /* Square sized to the smaller of available width / height so the whole ring
+     (and the minis that land in its coordinate space) fit on one screen with
+     the legend above. Centered by the stage flexbox. */
   width: 100%;
-  max-width: min(96vw, 110vh);
+  max-width: min(94vw, 90vh);
   aspect-ratio: 1 / 1;
   margin: 0 auto;
 }
@@ -14,6 +14,18 @@
   height: 100%;
   display: block;
   font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+/* While the morph is active the real ring hides so ONLY the MorphLayer overlay
+   (the squares in motion) is visible — otherwise the static ring underneath the
+   moving overlay reads as a garbled double image. The overlay squares start
+   pixel-on-top of these, so fading the ring out is a seamless handoff. */
+.mandala-svg.is-morphing {
+  opacity: 0;
+  transition: opacity 200ms ease;
+}
+.mandala-svg {
+  transition: opacity 200ms ease;
 }
 
 /* React owns highlight state; CSS just animates the opacity it sets. */
@@ -196,6 +208,32 @@
   margin-top: 8px;
   font-size: clamp(0.5rem, 1vw, 0.72rem);
   color: #8a88a0;
+}
+
+/* Expand control in the center readout (locked-show state only). Styled like
+   the small .mandala-export control. The center container has
+   pointer-events:none, so re-enable them here to make the button clickable. */
+.mandala-expand {
+  margin-top: 8px;
+  pointer-events: auto;
+  background: rgba(15, 16, 32, 0.6);
+  border: 1px solid rgba(138, 136, 160, 0.3);
+  border-radius: 6px;
+  padding: 4px 10px;
+  color: #8a88a0;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: clamp(0.55rem, 1vw, 0.72rem);
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  opacity: 0.75;
+  transition: opacity 160ms ease, color 160ms ease, border-color 160ms ease;
+}
+
+.mandala-expand:hover,
+.mandala-expand:focus-visible {
+  opacity: 1;
+  color: #f5f3ee;
+  border-color: rgba(245, 243, 238, 0.4);
 }
 
 .mandala-tooltip {

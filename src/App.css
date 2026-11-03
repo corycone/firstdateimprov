@@ -42,6 +42,34 @@ body {
   }
 }
 
+.app-shell {
+  min-height: 100vh;
+}
+
+/* Tiny escape-hatch link, overlaid in a corner — no layout footprint. */
+.app-corner-link {
+  position: fixed;
+  bottom: 12px;
+  right: 14px;
+  z-index: 60;
+  background: rgba(15, 16, 32, 0.6);
+  border: 1px solid rgba(138, 136, 160, 0.3);
+  border-radius: 6px;
+  padding: 4px 10px;
+  color: #8a88a0;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 160ms ease, color 160ms ease;
+}
+
+.app-corner-link:hover {
+  opacity: 1;
+  color: #f5f3ee;
+}
+
 .card {
   padding: 2em;
 }

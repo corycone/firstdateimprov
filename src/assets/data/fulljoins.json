@@ -1,0 +1,387 @@
+[
+  {
+    "player": "Cory",
+    "slot": "1A",
+    "count": 6
+  },
+  {
+    "player": "Cory",
+    "slot": "1B",
+    "count": 1
+  },
+  {
+    "player": "Cory",
+    "slot": "1C",
+    "count": 1
+  },
+  {
+    "player": "Cory",
+    "slot": "2A",
+    "count": 7
+  },
+  {
+    "player": "Cory",
+    "slot": "2B",
+    "count": 1
+  },
+  {
+    "player": "Cory",
+    "slot": "2C",
+    "count": 8
+  },
+  {
+    "player": "Cory",
+    "slot": "3s",
+    "count": 17
+  },
+  {
+    "player": "Teresa",
+    "slot": "1A",
+    "count": 1
+  },
+  {
+    "player": "Teresa",
+    "slot": "1B",
+    "count": 3
+  },
+  {
+    "player": "Teresa",
+    "slot": "1C",
+    "count": 7
+  },
+  {
+    "player": "Teresa",
+    "slot": "2A",
+    "count": 2
+  },
+  {
+    "player": "Teresa",
+    "slot": "2B",
+    "count": 5
+  },
+  {
+    "player": "Teresa",
+    "slot": "2C",
+    "count": 1
+  },
+  {
+    "player": "Teresa",
+    "slot": "3s",
+    "count": 15
+  },
+  {
+    "player": "Jesa",
+    "slot": "1A",
+    "count": 6
+  },
+  {
+    "player": "Jesa",
+    "slot": "1B",
+    "count": 4
+  },
+  {
+    "player": "Jesa",
+    "slot": "1C",
+    "count": 3
+  },
+  {
+    "player": "Jesa",
+    "slot": "2A",
+    "count": 4
+  },
+  {
+    "player": "Jesa",
+    "slot": "2B",
+    "count": 9
+  },
+  {
+    "player": "Jesa",
+    "slot": "2C",
+    "count": 2
+  },
+  {
+    "player": "Jesa",
+    "slot": "3s",
+    "count": 7
+  },
+  {
+    "player": "Brendan",
+    "slot": "1A",
+    "count": 5
+  },
+  {
+    "player": "Brendan",
+    "slot": "1B",
+    "count": 9
+  },
+  {
+    "player": "Brendan",
+    "slot": "1C",
+    "count": 2
+  },
+  {
+    "player": "Brendan",
+    "slot": "2A",
+    "count": 5
+  },
+  {
+    "player": "Brendan",
+    "slot": "2B",
+    "count": 4
+  },
+  {
+    "player": "Brendan",
+    "slot": "2C",
+    "count": 3
+  },
+  {
+    "player": "Brendan",
+    "slot": "3s",
+    "count": 17
+  },
+  {
+    "player": "Sean",
+    "slot": "1A",
+    "count": 3
+  },
+  {
+    "player": "Sean",
+    "slot": "1B",
+    "count": 2
+  },
+  {
+    "player": "Sean",
+    "slot": "1C",
+    "count": 5
+  },
+  {
+    "player": "Sean",
+    "slot": "2A",
+    "count": 5
+  },
+  {
+    "player": "Sean",
+    "slot": "2B",
+    "count": 0
+  },
+  {
+    "player": "Sean",
+    "slot": "2C",
+    "count": 3
+  },
+  {
+    "player": "Sean",
+    "slot": "3s",
+    "count": 10
+  },
+  {
+    "player": "Brooke",
+    "slot": "1A",
+    "count": 2
+  },
+  {
+    "player": "Brooke",
+    "slot": "1B",
+    "count": 1
+  },
+  {
+    "player": "Brooke",
+    "slot": "1C",
+    "count": 2
+  },
+  {
+    "player": "Brooke",
+    "slot": "2A",
+    "count": 1
+  },
+  {
+    "player": "Brooke",
+    "slot": "2B",
+    "count": 0
+  },
+  {
+    "player": "Brooke",
+    "slot": "2C",
+    "count": 4
+  },
+  {
+    "player": "Brooke",
+    "slot": "3s",
+    "count": 1
+  },
+  {
+    "player": "Mindy",
+    "slot": "1A",
+    "count": 0
+  },
+  {
+    "player": "Mindy",
+    "slot": "1B",
+    "count": 3
+  },
+  {
+    "player": "Mindy",
+    "slot": "1C",
+    "count": 2
+  },
+  {
+    "player": "Mindy",
+    "slot": "2A",
+    "count": 0
+  },
+  {
+    "player": "Mindy",
+    "slot": "2B",
+    "count": 2
+  },
+  {
+    "player": "Mindy",
+    "slot": "2C",
+    "count": 0
+  },
+  {
+    "player": "Mindy",
+    "slot": "3s",
+    "count": 3
+  },
+  {
+    "player": "Taylor",
+    "slot": "1A",
+    "count": 0
+  },
+  {
+    "player": "Taylor",
+    "slot": "1B",
+    "count": 3
+  },
+  {
+    "player": "Taylor",
+    "slot": "1C",
+    "count": 1
+  },
+  {
+    "player": "Taylor",
+    "slot": "2A",
+    "count": 1
+  },
+  {
+    "player": "Taylor",
+    "slot": "2B",
+    "count": 2
+  },
+  {
+    "player": "Taylor",
+    "slot": "2C",
+    "count": 1
+  },
+  {
+    "player": "Taylor",
+    "slot": "3s",
+    "count": 5
+  },
+  {
+    "player": "Lisa",
+    "slot": "1A",
+    "count": 1
+  },
+  {
+    "player": "Lisa",
+    "slot": "1B",
+    "count": 0
+  },
+  {
+    "player": "Lisa",
+    "slot": "1C",
+    "count": 2
+  },
+  {
+    "player": "Lisa",
+    "slot": "2A",
+    "count": 3
+  },
+  {
+    "player": "Lisa",
+    "slot": "2B",
+    "count": 2
+  },
+  {
+    "player": "Lisa",
+    "slot": "2C",
+    "count": 2
+  },
+  {
+    "player": "Lisa",
+    "slot": "3s",
+    "count": 4
+  },
+  {
+    "player": "Zach",
+    "slot": "1A",
+    "count": 2
+  },
+  {
+    "player": "Zach",
+    "slot": "1B",
+    "count": 0
+  },
+  {
+    "player": "Zach",
+    "slot": "1C",
+    "count": 0
+  },
+  {
+    "player": "Zach",
+    "slot": "2A",
+    "count": 0
+  },
+  {
+    "player": "Zach",
+    "slot": "2B",
+    "count": 0
+  },
+  {
+    "player": "Zach",
+    "slot": "2C",
+    "count": 0
+  },
+  {
+    "player": "Zach",
+    "slot": "3s",
+    "count": 3
+  },
+  {
+    "player": "Jay",
+    "slot": "1A",
+    "count": 0
+  },
+  {
+    "player": "Jay",
+    "slot": "1B",
+    "count": 0
+  },
+  {
+    "player": "Jay",
+    "slot": "1C",
+    "count": 1
+  },
+  {
+    "player": "Jay",
+    "slot": "2A",
+    "count": 0
+  },
+  {
+    "player": "Jay",
+    "slot": "2B",
+    "count": 0
+  },
+  {
+    "player": "Jay",
+    "slot": "2C",
+    "count": 2
+  },
+  {
+    "player": "Jay",
+    "slot": "3s",
+    "count": 1
+  }
+]

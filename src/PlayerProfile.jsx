@@ -124,9 +124,9 @@ function PlayerProfile({ name, onClose }) {
         <div className="profile-body">
           <div className="profile-fingerprint">
             <p className="profile-section-label">
-              PARTICIPATION FINGERPRINT (by scene slot)
+              PARTICIPATION FINGERPRINT (by scene slot, excl. 3rd beats)
             </p>
-            <Fingerprint name={name} R={150} labels />
+            <Fingerprint name={name} R={150} labels excludeThirds />
           </div>
 
           <div className="profile-breakdowns">

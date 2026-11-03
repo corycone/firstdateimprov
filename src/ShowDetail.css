@@ -1,0 +1,329 @@
+/* ShowDetail — the per-show "expand" dialog.
+   Mirrors PlayerProfile.css conventions: a dark full-screen backdrop + a dark
+   panel (#15162b), header + body (unrolled radial left, stats right). The panel
+   fades/scales in; the radial's rings sweep open as a self-contained "unroll"
+   morph. prefers-reduced-motion snaps everything. */
+
+.showdetail-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 3vh 3vw;
+  box-sizing: border-box;
+  overflow-y: auto;
+  background: rgba(15, 16, 32, 0.78);
+  animation: showdetail-backdrop-in 320ms ease both;
+}
+
+.showdetail-panel {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  box-sizing: border-box;
+  background: #15162b;
+  border: 1px solid rgba(255, 158, 69, 0.5); /* amber accent frame */
+  border-radius: 14px;
+  padding: 40px 56px 48px;
+  animation: showdetail-panel-in 420ms cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+@keyframes showdetail-backdrop-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes showdetail-panel-in {
+  from {
+    opacity: 0;
+    transform: scale(0.94) translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ===== Header ===== */
+.showdetail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.showdetail-title {
+  margin: 0;
+  font-weight: bold;
+  font-size: clamp(2.2rem, 5vw, 3.25rem);
+  line-height: 1.05;
+  color: #f5f3ee;
+}
+
+.showdetail-kicker {
+  margin: 6px 0 0;
+  color: #8a88a0;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+}
+
+.showdetail-close {
+  background: transparent;
+  border: none;
+  color: #8a88a0;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 4px 6px;
+  white-space: nowrap;
+  transition: color 160ms ease;
+}
+
+.showdetail-close:hover,
+.showdetail-close:focus-visible {
+  color: #f5f3ee;
+}
+
+/* ===== Body layout: radial left, stats right ===== */
+.showdetail-body {
+  position: relative; /* positioning context for the hover tooltip */
+  display: grid;
+  grid-template-columns: minmax(320px, 560px) 1fr;
+  gap: 48px;
+  margin-top: 28px;
+  align-items: start;
+}
+
+.showdetail-radial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.showdetail-radial-svg {
+  width: 100%;
+  max-width: 630px;
+  height: auto;
+  display: block;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.showdetail-radial-caption {
+  margin: 10px 0 0;
+  color: #8a88a0;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 0.82rem;
+  text-align: center;
+}
+
+/* "Unroll" morph: each ring sweeps open (slight scale), staggered from the hub
+   outward. IMPORTANT: the entry animation only animates TRANSFORM, never
+   opacity — otherwise its `both` fill-mode would pin opacity:1 and override the
+   hover-dim below (that was the bug where rings wouldn't fade on hover). The
+   fade-in reads via the scale + a brief wrapper fade handled separately. */
+.showdetail-ring {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: showdetail-ring-in 760ms cubic-bezier(0.4, 0, 0.2, 1) both;
+  animation-delay: calc(var(--ring-i, 0) * 45ms);
+  cursor: pointer;
+  opacity: 1;
+  /* ring-level hover: dim/undim eases independently of the entry animation */
+  transition: opacity 160ms ease;
+}
+
+/* Ring-level hover: the hovered scene stays lit, the others fade SLIGHTLY. */
+.showdetail-ring.is-dimmed {
+  opacity: 0.4;
+}
+.showdetail-ring.is-active .showdetail-ring-label {
+  fill: #f5f3ee;
+}
+/* Locked scene: a persistent amber cue on its label so it's clear it's pinned. */
+.showdetail-ring.is-locked .showdetail-ring-label {
+  fill: #ff9e45;
+}
+
+@keyframes showdetail-ring-in {
+  from {
+    transform: scale(0.82);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.showdetail-ring-label {
+  fill: #c7c5d6;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Courier New', monospace;
+  transition: fill 160ms ease;
+}
+
+.showdetail-hub-num {
+  fill: #f5f3ee;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.showdetail-hub-label {
+  fill: #8a88a0;
+  font-size: 11px;
+}
+
+/* ===== Right column: stats ===== */
+.showdetail-stats {
+  min-width: 0;
+}
+
+.showdetail-headline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px 52px;
+}
+
+.showdetail-stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.showdetail-stat-num {
+  color: #f5f3ee;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  line-height: 1;
+}
+
+.showdetail-stat-label {
+  margin-top: 6px;
+  color: #8a88a0;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 0.78rem;
+  letter-spacing: 1.5px;
+}
+
+.showdetail-openers {
+  margin: 22px 0 0;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 0.95rem;
+}
+
+.showdetail-section-label {
+  margin: 30px 0 14px;
+  color: #8a88a0;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 0.78rem;
+  letter-spacing: 2px;
+}
+
+.showdetail-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.showdetail-bar-row {
+  display: grid;
+  grid-template-columns: 70px 1fr 44px;
+  align-items: center;
+  gap: 10px;
+}
+
+.showdetail-bar-name {
+  color: #f5f3ee;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 0.85rem;
+}
+
+.showdetail-bar-track {
+  position: relative;
+  height: 20px;
+  background: rgba(245, 243, 238, 0.06);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.showdetail-bar-fill {
+  display: block;
+  height: 100%;
+  border-radius: 3px;
+  transition: width 560ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.showdetail-bar-val {
+  color: #f5f3ee;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 0.82rem;
+  text-align: right;
+}
+
+/* ===== Scene hover tooltip ===== */
+.showdetail-tooltip {
+  position: absolute;
+  pointer-events: none;
+  transform: translate(14px, 14px);
+  z-index: 5;
+  max-width: 260px;
+  background: rgba(15, 16, 32, 0.96);
+  border: 1px solid rgba(245, 243, 238, 0.18);
+  border-radius: 8px;
+  padding: 9px 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.55);
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.showdetail-tip-title {
+  color: #f5f3ee;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.showdetail-tip-cast {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+}
+
+.showdetail-tip-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #f5f3ee;
+  font-size: 0.82rem;
+}
+
+.showdetail-tip-swatch {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+  flex: 0 0 auto;
+}
+
+@media (max-width: 960px) {
+  .showdetail-panel {
+    padding: 28px 24px 36px;
+  }
+  .showdetail-body {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+/* Reduced motion: snap everything in, no tween. */
+@media (prefers-reduced-motion: reduce) {
+  .showdetail-backdrop,
+  .showdetail-panel,
+  .showdetail-ring {
+    animation: none;
+  }
+  .showdetail-bar-fill {
+    transition: none;
+  }
+}

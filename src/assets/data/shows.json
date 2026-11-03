@@ -1,0 +1,829 @@
+[
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Jay",
+      "Sean",
+      "Lisa",
+      "Zach"
+    ],
+    "totals": {
+      "Cory": 4.5,
+      "Teresa": 4.5,
+      "Jesa": 2,
+      "Brendan": 3.5,
+      "Jay": 4,
+      "Sean": 3,
+      "Lisa": 3.5,
+      "Zach": 4.75
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Jay": 0,
+      "Sean": 0,
+      "Lisa": 0,
+      "Zach": 0
+    }
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Jay",
+      "Sean",
+      "Lisa",
+      "Zach"
+    ],
+    "totals": {
+      "Cory": 3.25,
+      "Teresa": 4,
+      "Jesa": 4,
+      "Brendan": 3,
+      "Jay": 0,
+      "Sean": 3.5,
+      "Lisa": 3.75,
+      "Zach": 4.5
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Jay": 0,
+      "Sean": 0,
+      "Lisa": 0,
+      "Zach": 0
+    }
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Jay",
+      "Sean",
+      "Lisa",
+      "Zach"
+    ],
+    "totals": {
+      "Cory": 2,
+      "Teresa": 3,
+      "Jesa": 3.25,
+      "Brendan": 4,
+      "Jay": 0,
+      "Sean": 2,
+      "Lisa": 4,
+      "Zach": 3
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Jay": 0,
+      "Sean": 0,
+      "Lisa": 0,
+      "Zach": 0
+    }
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Jay",
+      "Sean",
+      "Lisa",
+      "Zach"
+    ],
+    "totals": {
+      "Cory": 5.5,
+      "Teresa": 3,
+      "Jesa": 2.5,
+      "Brendan": 5.25,
+      "Jay": 3.5,
+      "Sean": 3.75,
+      "Lisa": 0,
+      "Zach": 2.5
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Jay": 0,
+      "Sean": 0,
+      "Lisa": 0,
+      "Zach": 0
+    }
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Sean",
+      "Lisa",
+      "Zach"
+    ],
+    "totals": {
+      "Cory": 6.25,
+      "Teresa": 5,
+      "Jesa": 3.5,
+      "Brendan": 3.5,
+      "Sean": 5.75,
+      "Lisa": 4.5,
+      "Zach": 0
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Sean": 0,
+      "Lisa": 0,
+      "Zach": 0
+    }
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Sean",
+      "Lisa",
+      "Zach"
+    ],
+    "totals": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 5,
+      "Brendan": 6.25,
+      "Sean": 6.75,
+      "Lisa": 0,
+      "Zach": 5
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Sean": 0,
+      "Lisa": 0,
+      "Zach": 0
+    }
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Sean",
+      "Lisa",
+      "Zach"
+    ],
+    "totals": {
+      "Cory": 4.75,
+      "Teresa": 4,
+      "Jesa": 4,
+      "Brendan": 5.5,
+      "Sean": 3.5,
+      "Lisa": 4.75,
+      "Zach": 2
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Sean": 0,
+      "Lisa": 0,
+      "Zach": 0
+    }
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Sean",
+      "Lisa",
+      "Zach"
+    ],
+    "totals": {
+      "Cory": 5,
+      "Teresa": 0,
+      "Jesa": 3.25,
+      "Brendan": 4.75,
+      "Sean": 4,
+      "Lisa": 5,
+      "Zach": 2.25
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Sean": 0,
+      "Lisa": 0,
+      "Zach": 0
+    }
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Sean",
+      "Lisa",
+      "Zach"
+    ],
+    "totals": {
+      "Cory": 6,
+      "Teresa": 5.75,
+      "Jesa": 5,
+      "Brendan": 4.75,
+      "Sean": 6,
+      "Lisa": 4.25,
+      "Zach": 0
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Sean": 0,
+      "Lisa": 0,
+      "Zach": 0
+    }
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Sean",
+      "Lisa",
+      "Zach"
+    ],
+    "totals": {
+      "Cory": 6.5,
+      "Teresa": 0,
+      "Jesa": 6,
+      "Brendan": 4.75,
+      "Sean": 4,
+      "Lisa": 4.75,
+      "Zach": 0
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Sean": 0,
+      "Lisa": 0,
+      "Zach": 0
+    }
+  },
+  {
+    "showIndex": 11,
+    "showTitle": "Carousel",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Sean",
+      "Lisa"
+    ],
+    "totals": {
+      "Cory": 3.75,
+      "Teresa": 3.25,
+      "Jesa": 3.25,
+      "Brendan": 4,
+      "Sean": 0,
+      "Lisa": 0
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Sean": 0,
+      "Lisa": 0
+    }
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Sean",
+      "Lisa"
+    ],
+    "totals": {
+      "Cory": 6.25,
+      "Teresa": 4,
+      "Jesa": 3.75,
+      "Brendan": 6.5,
+      "Sean": 4.5,
+      "Lisa": 3.75
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Sean": 0,
+      "Lisa": 0
+    }
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Sean",
+      "Lisa"
+    ],
+    "totals": {
+      "Cory": 5.5,
+      "Teresa": 4.5,
+      "Jesa": 5,
+      "Brendan": 7.25,
+      "Sean": 5.75,
+      "Lisa": 0
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Sean": 0,
+      "Lisa": 0
+    }
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Sean",
+      "Lisa"
+    ],
+    "totals": {
+      "Cory": 5.5,
+      "Teresa": 2.5,
+      "Jesa": 4.75,
+      "Brendan": 6.75,
+      "Sean": 4.5,
+      "Lisa": 3.25
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Sean": 0,
+      "Lisa": 0
+    }
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Sean",
+      "Lisa"
+    ],
+    "totals": {
+      "Cory": 6.5,
+      "Teresa": 3.25,
+      "Jesa": 4,
+      "Brendan": 4.5,
+      "Sean": 0,
+      "Lisa": 4.25
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Sean": 0,
+      "Lisa": 0
+    }
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Sean"
+    ],
+    "totals": {
+      "Cory": 6.5,
+      "Teresa": 4.5,
+      "Jesa": 4.75,
+      "Brendan": 6,
+      "Sean": 5.75
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Sean": 0
+    }
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Sean",
+      "Brooke",
+      "Mindy",
+      "Taylor"
+    ],
+    "totals": {
+      "Cory": 4,
+      "Teresa": 4.5,
+      "Jesa": 4.5,
+      "Brendan": 4.75,
+      "Sean": 0,
+      "Brooke": 2.5,
+      "Mindy": 4,
+      "Taylor": 3.25
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Sean": 0,
+      "Brooke": 0,
+      "Mindy": 0,
+      "Taylor": 0
+    }
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Sean",
+      "Brooke",
+      "Mindy",
+      "Taylor"
+    ],
+    "totals": {
+      "Cory": 5,
+      "Teresa": 3,
+      "Jesa": 4,
+      "Brendan": 5.25,
+      "Sean": 3.5,
+      "Brooke": 4,
+      "Mindy": 0,
+      "Taylor": 5.75
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Sean": 0,
+      "Brooke": 0,
+      "Mindy": 0,
+      "Taylor": 0
+    }
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Sean",
+      "Brooke",
+      "Mindy",
+      "Taylor"
+    ],
+    "totals": {
+      "Cory": 6.75,
+      "Teresa": 5.25,
+      "Jesa": 0,
+      "Brendan": 6.5,
+      "Sean": 5,
+      "Brooke": 6,
+      "Mindy": 3.75,
+      "Taylor": 0
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Sean": 0,
+      "Brooke": 0,
+      "Mindy": 0,
+      "Taylor": 0
+    }
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Sean",
+      "Brooke",
+      "Mindy",
+      "Taylor"
+    ],
+    "totals": {
+      "Cory": 4.5,
+      "Teresa": 5.25,
+      "Jesa": 0,
+      "Brendan": 4.5,
+      "Sean": 3.75,
+      "Brooke": 2.75,
+      "Mindy": 4.5,
+      "Taylor": 3.25
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Sean": 0,
+      "Brooke": 0,
+      "Mindy": 0,
+      "Taylor": 0
+    }
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Sean",
+      "Brooke",
+      "Mindy",
+      "Taylor"
+    ],
+    "totals": {
+      "Cory": 4.5,
+      "Teresa": 5.5,
+      "Jesa": 4.5,
+      "Brendan": 5.75,
+      "Sean": 3.5,
+      "Brooke": 3.5,
+      "Mindy": 3.25,
+      "Taylor": 5
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Sean": 0,
+      "Brooke": 0,
+      "Mindy": 0,
+      "Taylor": 0
+    }
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Sean",
+      "Brooke",
+      "Mindy",
+      "Taylor"
+    ],
+    "totals": {
+      "Cory": 5.75,
+      "Teresa": 4.75,
+      "Jesa": 5.75,
+      "Brendan": 5.25,
+      "Sean": 6,
+      "Brooke": 0,
+      "Mindy": 5,
+      "Taylor": 4.75
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Sean": 0,
+      "Brooke": 0,
+      "Mindy": 0,
+      "Taylor": 0
+    }
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Sean",
+      "Brooke",
+      "Mindy",
+      "Taylor"
+    ],
+    "totals": {
+      "Cory": 7.75,
+      "Teresa": 5.5,
+      "Jesa": 6.25,
+      "Brendan": 0,
+      "Sean": 5.5,
+      "Brooke": 5,
+      "Mindy": 6,
+      "Taylor": 0
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Sean": 0,
+      "Brooke": 0,
+      "Mindy": 0,
+      "Taylor": 0
+    }
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Sean",
+      "Brooke",
+      "Mindy",
+      "Taylor"
+    ],
+    "totals": {
+      "Cory": 4.75,
+      "Teresa": 5,
+      "Jesa": 5.75,
+      "Brendan": 7,
+      "Sean": 2.75,
+      "Brooke": 0,
+      "Mindy": 3.5,
+      "Taylor": 5.75
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Sean": 0,
+      "Brooke": 0,
+      "Mindy": 0,
+      "Taylor": 0
+    }
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Sean",
+      "Brooke",
+      "Mindy",
+      "Taylor"
+    ],
+    "totals": {
+      "Cory": 6,
+      "Teresa": 1.75,
+      "Jesa": 7.25,
+      "Brendan": 7.5,
+      "Sean": 3.25,
+      "Brooke": 3.5,
+      "Mindy": 2.75,
+      "Taylor": 5.75
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Sean": 0,
+      "Brooke": 0,
+      "Mindy": 0,
+      "Taylor": 0
+    }
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "roster": [
+      "Cory",
+      "Teresa",
+      "Jesa",
+      "Brendan",
+      "Sean",
+      "Brooke",
+      "Mindy",
+      "Taylor"
+    ],
+    "totals": {
+      "Cory": 3,
+      "Teresa": 2.75,
+      "Jesa": 3.25,
+      "Brendan": 2.5,
+      "Sean": 2,
+      "Brooke": 3.5,
+      "Mindy": 2.75,
+      "Taylor": 0
+    },
+    "initiations": {
+      "Cory": 0,
+      "Teresa": 0,
+      "Jesa": 0,
+      "Brendan": 0,
+      "Sean": 0,
+      "Brooke": 0,
+      "Mindy": 0,
+      "Taylor": 0
+    }
+  }
+]

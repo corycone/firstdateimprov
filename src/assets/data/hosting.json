@@ -1,0 +1,184 @@
+[
+  {
+    "date": "2025-11-06",
+    "host": "Andy",
+    "hostGuest": true,
+    "hostNote": null,
+    "wordGetter": "Cory"
+  },
+  {
+    "date": "2025-11-20",
+    "host": "Andy",
+    "hostGuest": true,
+    "hostNote": null,
+    "wordGetter": "Lisa"
+  },
+  {
+    "date": "2025-12-04",
+    "host": "Sean",
+    "hostGuest": false,
+    "hostNote": null,
+    "wordGetter": "Brendan"
+  },
+  {
+    "date": "2025-12-18",
+    "host": "Cory",
+    "hostGuest": false,
+    "hostNote": null,
+    "wordGetter": "Jay"
+  },
+  {
+    "date": "2026-01-08",
+    "host": "Brendan",
+    "hostGuest": false,
+    "hostNote": null,
+    "wordGetter": "Cory"
+  },
+  {
+    "date": "2026-01-22",
+    "host": "Jesa",
+    "hostGuest": false,
+    "hostNote": null,
+    "wordGetter": "Brendan"
+  },
+  {
+    "date": "2026-02-05",
+    "host": "Lisa",
+    "hostGuest": false,
+    "hostNote": null,
+    "wordGetter": "Jesa"
+  },
+  {
+    "date": "2026-02-19",
+    "host": "Cory",
+    "hostGuest": false,
+    "hostNote": null,
+    "wordGetter": "Brendan"
+  },
+  {
+    "date": "2026-03-05",
+    "host": "Jesa",
+    "hostGuest": false,
+    "hostNote": null,
+    "wordGetter": "Brendan"
+  },
+  {
+    "date": "2026-03-19",
+    "host": "Brendan",
+    "hostGuest": false,
+    "hostNote": null,
+    "wordGetter": null
+  },
+  {
+    "date": "2026-04-02",
+    "host": "Teresa",
+    "hostGuest": false,
+    "hostNote": null,
+    "wordGetter": "Cory"
+  },
+  {
+    "date": "2026-04-16",
+    "host": "Lisa",
+    "hostGuest": false,
+    "hostNote": null,
+    "wordGetter": "Brendan"
+  },
+  {
+    "date": "2026-04-30",
+    "host": "Sean",
+    "hostGuest": false,
+    "hostNote": "midshow",
+    "wordGetter": "Sean"
+  },
+  {
+    "date": "2026-05-07",
+    "host": "Brendan",
+    "hostGuest": false,
+    "hostNote": null,
+    "wordGetter": "Cory"
+  },
+  {
+    "date": "2026-05-21",
+    "host": "Cory",
+    "hostGuest": false,
+    "hostNote": null,
+    "wordGetter": "Cory"
+  },
+  {
+    "date": "2026-06-04",
+    "host": "Jesa",
+    "hostGuest": false,
+    "hostNote": null,
+    "wordGetter": "Jesa"
+  },
+  {
+    "date": "2026-06-18",
+    "host": "Teresa",
+    "hostGuest": false,
+    "hostNote": null,
+    "wordGetter": "Cory"
+  },
+  {
+    "date": "2026-07-02",
+    "host": "Cory",
+    "hostGuest": false,
+    "hostNote": null,
+    "wordGetter": "Jesa"
+  },
+  {
+    "date": "2026-07-16",
+    "host": "Sean",
+    "hostGuest": false,
+    "hostNote": null,
+    "wordGetter": "Teresa"
+  },
+  {
+    "date": "2026-07-29",
+    "host": "Heather",
+    "hostGuest": true,
+    "hostNote": null,
+    "wordGetter": "Mindy"
+  },
+  {
+    "date": "2026-08-06",
+    "host": "Teresa+Brooke",
+    "hostGuest": false,
+    "hostNote": null,
+    "wordGetter": "Brooke"
+  },
+  {
+    "date": "2026-08-20",
+    "host": "Jesa + Mindy",
+    "hostGuest": false,
+    "hostNote": null,
+    "wordGetter": "Taylor"
+  },
+  {
+    "date": "2026-09-03",
+    "host": "Brendan",
+    "hostGuest": false,
+    "hostNote": null,
+    "wordGetter": "Jesa"
+  },
+  {
+    "date": "2026-09-17",
+    "host": "Mindy + Brooke",
+    "hostGuest": false,
+    "hostNote": null,
+    "wordGetter": "Sean"
+  },
+  {
+    "date": "2026-10-15",
+    "host": "Sean",
+    "hostGuest": false,
+    "hostNote": null,
+    "wordGetter": "Teresa"
+  },
+  {
+    "date": "2026-10-29",
+    "host": "Cory",
+    "hostGuest": false,
+    "hostNote": null,
+    "wordGetter": "Jesa"
+  }
+]

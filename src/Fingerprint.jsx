@@ -6,9 +6,9 @@ import { PLAYER_COLORS, INK_TOKENS, SERIF } from './palette';
 import { fingerprintWedges, hubR, ringR } from './fingerprintGeometry';
 import './Fingerprint.css';
 
-function Fingerprint({ name, R, labels = false, showName = false, onClick }) {
+function Fingerprint({ name, R, labels = false, showName = false, excludeThirds = false, onClick }) {
   const color = PLAYER_COLORS[name];
-  const wedges = fingerprintWedges(name, R);
+  const wedges = fingerprintWedges(name, R, { excludeThirds });
   const hub = hubR(R);
   const ring = ringR(R);
 

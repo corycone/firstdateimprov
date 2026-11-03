@@ -1,0 +1,9875 @@
+[
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Jay",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Zach",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Jay",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Jay",
+    "weight": 1
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "4",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "4",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "4",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "4",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "4",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jay",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "4",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "4",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "4",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Zach",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jay",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Zach",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jay",
+    "weight": 1
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Zach",
+    "weight": 1
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "5",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "5",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "5",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "5",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "5",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jay",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "5",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "5",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "5",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Zach",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Zach",
+    "weight": 1
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "4-R",
+    "sceneType": "other",
+    "round": null,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "4-R",
+    "sceneType": "other",
+    "round": null,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "4-R",
+    "sceneType": "other",
+    "round": null,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "4-R",
+    "sceneType": "other",
+    "round": null,
+    "player": "Zach",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "3C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 1,
+    "showTitle": "Footbath",
+    "sceneCode": "3C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Zach",
+    "weight": 1
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Zach",
+    "weight": 1
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Zach",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Zach",
+    "weight": 1
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Zach",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Zach",
+    "weight": 1
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "3C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 2,
+    "showTitle": "Groundhog Day",
+    "sceneCode": "3C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Zach",
+    "weight": 1
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Zach",
+    "weight": 1
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Zach",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Zach",
+    "weight": 1
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Zach",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 3,
+    "showTitle": "Cheese Curls",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Zach",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Zach",
+    "weight": 1
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Jay",
+    "weight": 1
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jay",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Zach",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Zach",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Zach",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jay",
+    "weight": 1
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jay",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Zach",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jay",
+    "weight": 1
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "3C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 4,
+    "showTitle": "Porcupines",
+    "sceneCode": "3C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "3D",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "3D",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "3A-2",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "3A-2",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 5,
+    "showTitle": "Toothpaste",
+    "sceneCode": "3A-2",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Zach",
+    "weight": 1
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Zach",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Zach",
+    "weight": 1
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Zach",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Zach",
+    "weight": 1
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Zach",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "3C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "3C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "3C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 6,
+    "showTitle": "Rocket Ship",
+    "sceneCode": "3C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Zach",
+    "weight": 1
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Zach",
+    "weight": 1
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Zach",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Zach",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "3A-C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "3A-C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "3E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "3E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Zach",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 7,
+    "showTitle": "Supercalifrag...",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Zach",
+    "weight": 1
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Zach",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Zach",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Zach",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "3E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "3E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "3E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "3E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "3E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 8,
+    "showTitle": "Thorn",
+    "sceneCode": "3E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Zach",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "3",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "3",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "3",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "3",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "3",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "3",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "3",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "3",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "3",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "3",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "3",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "3",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "3",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "3",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "3",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "3",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "3",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 9,
+    "showTitle": "Square",
+    "sceneCode": "3",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "3C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "3C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "3E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "3E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "3E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "3E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 10,
+    "showTitle": "Pistachio",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 11,
+    "showTitle": "Carousel",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 11,
+    "showTitle": "Carousel",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 11,
+    "showTitle": "Carousel",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 11,
+    "showTitle": "Carousel",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 11,
+    "showTitle": "Carousel",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 11,
+    "showTitle": "Carousel",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 11,
+    "showTitle": "Carousel",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 11,
+    "showTitle": "Carousel",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 11,
+    "showTitle": "Carousel",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 11,
+    "showTitle": "Carousel",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 11,
+    "showTitle": "Carousel",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 11,
+    "showTitle": "Carousel",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 11,
+    "showTitle": "Carousel",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 11,
+    "showTitle": "Carousel",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 11,
+    "showTitle": "Carousel",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 11,
+    "showTitle": "Carousel",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 11,
+    "showTitle": "Carousel",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "3A/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "3A/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "3A/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "3B/E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "3B/E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "3B/E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 12,
+    "showTitle": "Marshmallow",
+    "sceneCode": "3B/E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "3C/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "3C/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "3C/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "3C/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "3A/D",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 13,
+    "showTitle": "Robots",
+    "sceneCode": "3A/D",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 14,
+    "showTitle": "Tomato",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Lisa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 15,
+    "showTitle": "Caterpillar",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Lisa",
+    "weight": 1
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "3C/D/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "3C/D/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "3C/D/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "3C/D/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 16,
+    "showTitle": "Gymnast",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Brooke",
+    "weight": 1
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brooke",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Mindy",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Taylor",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brooke",
+    "weight": 1
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brooke",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "3C/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "3C/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "3C/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "3E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "3E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "3C/A/E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "3C/A/E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 17,
+    "showTitle": "Bubble",
+    "sceneCode": "3C/A/E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Brooke",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Brooke",
+    "weight": 1
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brooke",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brooke",
+    "weight": 1
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Taylor",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brooke",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Taylor",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "3E/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "3E/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "3B/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "3B/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "3B/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "3D",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "3D",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brooke",
+    "weight": 1
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "3D/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "3D/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "3D/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 18,
+    "showTitle": "Roses",
+    "sceneCode": "3D/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Brooke",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brooke",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Mindy",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brooke",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brooke",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brooke",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "3B/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "3B/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "3E/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "3E/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "3E/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "3E/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "3E/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brooke",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "3E/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Mindy",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "3A/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brooke",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "3A/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "3B/D",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "3B/D",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "3B/D",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "3A/B/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "3A/B/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 19,
+    "showTitle": "Bedazzled",
+    "sceneCode": "3A/B/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brooke",
+    "weight": 1
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Brooke",
+    "weight": 1
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brooke",
+    "weight": 1
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Mindy",
+    "weight": 0.25
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brooke",
+    "weight": 0.5
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 0.5
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.5
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brooke",
+    "weight": 1
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": null,
+    "showTitle": "Exotic",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Brooke",
+    "weight": 1
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brooke",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Mindy",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Taylor",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brooke",
+    "weight": 1
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Taylor",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brooke",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Taylor",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brooke",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Taylor",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "3B/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 21,
+    "showTitle": "Bubbles",
+    "sceneCode": "3B/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Brooke",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Taylor",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brooke",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Mindy",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Taylor",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brooke",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brooke",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Taylor",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "3B/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "3B/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "3B/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "3B/D",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "3B/D",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "3B/D",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "3A/D/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "3A/D/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "3A/D/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brooke",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "3A/D/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Mindy",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "3A/D/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "3D/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "3D/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brooke",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "3D/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Mindy",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 22,
+    "showTitle": "Rocks",
+    "sceneCode": "3D/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Mindy",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Taylor",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Taylor",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Taylor",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Taylor",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "3E/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "3E/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "3A/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "3A/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "3A/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "3A/Bp2",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "3A/Bp2",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "3C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "3C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "3C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "3C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "3C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "3C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Mindy",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 23,
+    "showTitle": "Rocketeer",
+    "sceneCode": "3C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Taylor",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Mindy",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Brooke",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brooke",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Mindy",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brooke",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brooke",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brooke",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "3D/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "3D/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "3D/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "3B/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "3B/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "3A/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "3A/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "3A/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "3A/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "3A/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brooke",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "3A/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "3E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brooke",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "3E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 24,
+    "showTitle": "Energy",
+    "sceneCode": "3B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brooke",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Mindy",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Taylor",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Mindy",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Taylor",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Taylor",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "3A/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "3A/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "3A/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "3B/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "3B/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "3B/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "3C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "3C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "3A/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "3A/B",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "3D",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 25,
+    "showTitle": "Sand",
+    "sceneCode": "3D",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "1A",
+    "sceneType": "opening",
+    "round": 1,
+    "player": "Brooke",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "1B",
+    "sceneType": "join-2person",
+    "round": 1,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Mindy",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "1C",
+    "sceneType": "walk-on",
+    "round": 1,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Brooke",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Mindy",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "D",
+    "sceneType": "group-game",
+    "round": 1,
+    "player": "Taylor",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "2A",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brooke",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "2B",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "2C",
+    "sceneType": "second-round",
+    "round": 2,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Cory",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Brooke",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Mindy",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "E",
+    "sceneType": "group-game",
+    "round": 2,
+    "player": "Taylor",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "3A/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "3A/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "3A/C",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Taylor",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "3E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "3E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "3E",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brooke",
+    "weight": 0.5
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "3C/F/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Cory",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "3C/F/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Teresa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "3C/F/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "3C/F/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brendan",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "3C/F/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Sean",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "3C/F/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Brooke",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "3C/F/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Mindy",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "3C/F/A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Taylor",
+    "weight": 0.25
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Jesa",
+    "weight": 1
+  },
+  {
+    "showIndex": 26,
+    "showTitle": "Eyeball",
+    "sceneCode": "3A",
+    "sceneType": "third-round",
+    "round": 3,
+    "player": "Taylor",
+    "weight": 1
+  }
+]

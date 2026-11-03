@@ -14,133 +14,76 @@
 //   there is NO per-frame React re-render of the 1043 nodes — React only flips
 //   one className when the phase changes.
 //
-// "Aggregate morph": squares of the same player+slot all fly to the same wedge
-// centroid and fade toward a shared opacity, so each of the 11 fingerprints
-// visibly gathers itself out of the mandala.
+// "Mini-mandala morph": each player's fingerprint IS the whole mandala scaled
+// down and filtered to that player's squares, with every square kept in its
+// ORIGINAL wedge/ring position. So a square's END transform is just: scale the
+// whole mandala space down by s and translate it to the player's grid cell.
+// Each square flies to the exact same relative spot it occupied in the big ring
+// — the big radial literally splits into 11 smaller ghost-rings, one per player.
 import { useMemo } from 'react';
 import { PLAYER_COLORS, PLAYER_ORDER } from './palette';
 import {
   buildGeometry,
   CX,
   CY,
+  OUTER_R,
   VB_X,
   VB_Y,
   VB_W,
   VB_H,
 } from './mandalaGeometry';
-import { SLOTS, slotKey, makeRadiusScale } from './fingerprintGeometry';
 import './MorphLayer.css';
 
-// --- small-multiples grid layout, mirrored from mocks/gen-scrolly.mjs ---
-// The mock lays the grid out in its own 1500-wide canvas; we re-express the
-// SAME cell centers inside the mandala's origin-centered coordinate space (the
-// coordinates are relative to the translate(CX,CY) group, i.e. origin = CX,CY).
+// --- small-multiples grid layout ---
+// Cell centers are expressed in the mandala's ABSOLUTE view-box coordinates
+// (origin at the viewBox 0,0 = the mandala center is at CX,CY). Each player's
+// mini-mandala is the full ring scaled by MINI_SCALE and centered in its cell.
 const GRID_COLS = 4;
-const GRID_R = 78; // fingerprint outer radius in the grid (matches the mock + Fingerprint R)
-const CELL_W = 340; // mock cell width
-const CELL_H = 230; // mock cell height
-// Center the 11 cells (ceil(11/4)=3 rows) horizontally/vertically about origin.
-const GRID_W = GRID_COLS * CELL_W;
+const MINI_R = 125; // outer radius of each mini-mandala in the grid
+const MINI_SCALE = MINI_R / OUTER_R; // shrink factor applied to the whole ring
+const CELL_W = 340; // horizontal footprint per mini (room for gaps)
+const CELL_H = 380; // vertical footprint per mini (spreads the 3 rows down the square)
 const GRID_ROWS = Math.ceil(PLAYER_ORDER.length / GRID_COLS);
+const GRID_W = GRID_COLS * CELL_W;
 const GRID_H = GRID_ROWS * CELL_H;
 
-// Cell center (origin-relative) for player index i.
+// Absolute cell center for player index i. The grid is centered on the mandala
+// center (CX,CY) within the viewBox; the mandala box is centered in the
+// viewport by CSS (.story-stage), so the landed minis sit centered on screen.
 function gridCellCenter(i) {
   const col = i % GRID_COLS;
   const row = Math.floor(i / GRID_COLS);
-  // left edge of grid relative to origin, plus half a cell to hit the center.
-  const x = -GRID_W / 2 + col * CELL_W + CELL_W / 2;
-  const y = -GRID_H / 2 + row * CELL_H + CELL_H / 2;
+  const x = CX - GRID_W / 2 + col * CELL_W + CELL_W / 2;
+  const y = CY - GRID_H / 2 + row * CELL_H + CELL_H / 2;
   return { x, y };
 }
 
-// Centroid of a slot wedge inside a fingerprint centered at (gx, gy).
-// Mirrors fingerprintGeometry: aStep=2PI/9, wedge i spans [i*aStep, (i+1)*aStep]
-// from innerRadius R*0.1 to rScale(value); the convergence target is the wedge
-// mid-angle at the mid-radius.
-function slotWedgeCentroid(gx, gy, slotIndex, value, rScale, R) {
-  const aStep = (2 * Math.PI) / SLOTS.length;
-  const mid = slotIndex * aStep + aStep / 2;
-  const rInner = R * 0.1;
-  const rOuter = rScale(value);
-  const rMid = (rInner + rOuter) / 2;
-  return {
-    x: gx + Math.sin(mid) * rMid,
-    y: gy - Math.cos(mid) * rMid,
-  };
-}
-
-// Approximate a d3 arc segment's centroid from its `d` string by averaging the
-// command ENDPOINT coordinates (the corners of the wedge). We parse per-command
-// so the radii / flags buried inside the `A` arc commands don't skew the
-// average — only real endpoints count. For these thin wedges the corner average
-// is plenty accurate to pick the point each square flies TO.
-function pathCentroid(d) {
-  const pts = [];
-  // Split into commands: a letter followed by its numeric args.
-  const cmds = d.match(/[a-zA-Z][^a-zA-Z]*/g) || [];
-  for (const cmd of cmds) {
-    const type = cmd[0];
-    const nums = (cmd.slice(1).match(/-?\d+(?:\.\d+)?(?:e[-+]?\d+)?/gi) || []).map(
-      parseFloat
-    );
-    if (type === 'M' || type === 'L') {
-      // absolute moveto / lineto: x,y (possibly repeated for polylines)
-      for (let i = 0; i + 1 < nums.length; i += 2) pts.push([nums[i], nums[i + 1]]);
-    } else if (type === 'A') {
-      // elliptical arc: rx ry xrot large sweep x y — endpoint is the last pair.
-      for (let i = 0; i + 6 < nums.length + 1; i += 7) {
-        if (i + 6 < nums.length) pts.push([nums[i + 5], nums[i + 6]]);
-      }
-    }
-  }
-  if (!pts.length) return { x: 0, y: 0 };
-  const sx = pts.reduce((a, p) => a + p[0], 0);
-  const sy = pts.reduce((a, p) => a + p[1], 0);
-  return { x: sx / pts.length, y: sy / pts.length };
-}
-
-function MorphLayer({ active }) {
+function MorphLayer({ active, onSelectPlayer }) {
   const { segments } = useMemo(() => buildGeometry(), []);
 
-  // Per-square layout table, computed ONCE. Each entry carries the END
-  // transform (translate + scale) that moves the square's centroid onto its
-  // fingerprint wedge centroid. START is identity (native arc position).
+  // Per-square layout, computed ONCE. START is the native mandala position
+  // (origin-centered `d` shifted onto the mandala center). END scales the whole
+  // mandala space by MINI_SCALE and lands the (scaled) mandala center on the
+  // player's grid-cell center — so every square keeps its exact wedge/ring spot
+  // inside a shrunken copy of the ring. Positions are preserved; only this
+  // player's squares exist in that mini, so the mini reads as a filtered ring.
   const layout = useMemo(() => {
-    const rScale = makeRadiusScale(GRID_R);
     const playerIndex = Object.fromEntries(PLAYER_ORDER.map((p, i) => [p, i]));
-    // Per-player, per-slot aggregate value (drives the wedge radius / target).
-    const bySlotValue = {};
-    for (const seg of segments) {
-      const k = slotKey(seg.sceneCode);
-      bySlotValue[seg.player] = bySlotValue[seg.player] || {};
-      bySlotValue[seg.player][k] = (bySlotValue[seg.player][k] || 0) + seg.weight;
-    }
-
     return segments.map((seg, idx) => {
       const pi = playerIndex[seg.player] ?? 0;
-      const { x: gx, y: gy } = gridCellCenter(pi);
-      const slot = slotKey(seg.sceneCode);
-      const slotIndex = Math.max(0, SLOTS.indexOf(slot));
-      const value = bySlotValue[seg.player]?.[slot] || 0;
-      // Work in ABSOLUTE view-box coordinates so the per-path CSS transform is
-      // fully self-contained (transform-box:view-box + transform-origin:0 0),
-      // independent of any parent <g> transform. The mandala's segments live in
-      // an origin-centered space then shifted by translate(CX,CY); we bake that
-      // same (CX,CY) shift into every transform here.
-      const targetAbs = slotWedgeCentroid(gx + CX, gy + CY, slotIndex, value, rScale, GRID_R);
-      const start = pathCentroid(seg.d); // origin-centered (matches `d`)
-      // START (identity phase): shift the origin-centered `d` onto the mandala.
-      const startTransform = `translate(${CX}px, ${CY}px)`;
-      // Shrink each square as it converges so the stacked squares read as one
-      // clean wedge rather than a pile of full-size arcs.
-      const scale = 0.14;
-      // A CSS `scale(s)` about the view-box origin maps a point P -> P*s, so the
-      // accompanying translate T must solve  T + start*s = targetAbs.
-      const dx = targetAbs.x - start.x * scale;
-      const dy = targetAbs.y - start.y * scale;
-      const endTransform = `translate(${dx.toFixed(2)}px, ${dy.toFixed(2)}px) scale(${scale})`;
-      // Gentle stagger spread across the set so the gather reads as motion.
+      const { x: cx, y: cy } = gridCellCenter(pi);
+      // Use full affine matrices so the transform is ORIGIN-INDEPENDENT — this
+      // avoids all transform-box / transform-origin ambiguity (the previous
+      // translate+scale was being resolved about the wrong origin, smearing the
+      // squares). matrix(a,b,c,d,e,f) maps P -> (a*Px + c*Py + e, b*Px + d*Py + f).
+      // `d` is origin-centered (mandala center = 0,0).
+      //   START: identity scale, translate by (CX,CY) -> lands on the mandala.
+      const startTransform = `matrix(1,0,0,1,${CX},${CY})`;
+      //   END: scale by MINI_SCALE, translate so the (scaled) mandala center
+      //        lands on the player's cell center. P -> (s*Px + cx, s*Py + cy).
+      const s = MINI_SCALE;
+      const endTransform = `matrix(${s.toFixed(5)},0,0,${s.toFixed(5)},${cx.toFixed(2)},${cy.toFixed(2)})`;
+      // Gentle stagger so the split reads as motion, not a snap.
       const delay = (idx % 60) * 2; // 0–118ms, repeating
       return { startTransform, endTransform, delay };
     });
@@ -170,6 +113,35 @@ function MorphLayer({ active }) {
             }}
           />
         ))}
+      </g>
+
+      {/* Mini labels + click targets, positioned at each mini-mandala center.
+          Only interactive once the minis have landed (active). Each is a circle
+          hit-area (radius MINI_R) plus the player name below it. */}
+      <g className={`morph-targets${active ? ' is-active' : ''}`}>
+        {PLAYER_ORDER.map((name, i) => {
+          const { x, y } = gridCellCenter(i);
+          return (
+            <g key={name} className="morph-target">
+              <circle
+                className="morph-hit"
+                cx={x}
+                cy={y}
+                r={MINI_R}
+                fill="transparent"
+                onClick={() => active && onSelectPlayer?.(name)}
+              />
+              <text
+                className="morph-label"
+                x={x}
+                y={y + MINI_R + 26}
+                textAnchor="middle"
+              >
+                {name}
+              </text>
+            </g>
+          );
+        })}
       </g>
     </svg>
   );

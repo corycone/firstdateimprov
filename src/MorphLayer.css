@@ -30,36 +30,60 @@
 }
 
 .morph-seg {
-  /* START state: the square shifted onto its native mandala position (its `d`
-     is origin-centered; --start-transform = translate(CX,CY)), so each overlay
-     square sits pixel-on-top of the real mandala segment underneath.
-     transform-box:view-box + transform-origin:0 0 make the per-path CSS
-     transform operate in absolute view-box user units, matching the ABSOLUTE
-     coordinate math in MorphLayer.jsx — no dependency on a parent <g>. */
+  /* START state: the square sits pixel-on-top of its real mandala segment.
+     The transforms are full affine matrix() values (see MorphLayer.jsx), so
+     they are ORIGIN-INDEPENDENT — no transform-box / transform-origin needed,
+     and none of that ambiguity can smear the squares. matrix() maps the
+     origin-centered `d` straight to its absolute view-box position. */
   transform: var(--start-transform);
-  transform-box: view-box;
-  transform-origin: 0 0;
   fill-opacity: 0.9;
   transition:
     transform 800ms cubic-bezier(0.4, 0, 0.2, 1),
     fill-opacity 800ms ease-in-out;
 }
 
-/* END state: squares fly to their fingerprint wedge centroid and fade toward a
-   shared, lighter opacity so the merged wedge reads as one object ("the mandala
-   gathers itself into 11 fingerprints"). */
+/* END state: each square flies to its exact position inside a shrunken copy of
+   the ring (its player's mini-mandala). Squares stay distinct and near-full
+   opacity so the mini reads as a crisp filtered ring, not a wash. */
 .morph-svg.is-active .morph-seg {
   transform: var(--end-transform);
-  fill-opacity: 0.6;
+  fill-opacity: 0.9;
 }
 
 /* Reduced motion: snap to the END/START state with no tween. */
+/* Mini labels + click targets: hidden until the minis land, then fade in and
+   become clickable. The overlay svg is pointer-events:none, so re-enable it
+   just on the hit circles. */
+.morph-targets {
+  opacity: 0;
+  transition: opacity 300ms ease 500ms; /* appear after the squares arrive */
+}
+.morph-targets.is-active {
+  opacity: 1;
+}
+.morph-targets.is-active .morph-hit {
+  pointer-events: auto;
+  cursor: pointer;
+}
+.morph-label {
+  fill: #f5f3ee;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+.morph-target:hover .morph-label {
+  fill: #ff9e45;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .morph-seg {
     transition: none;
   }
   .morph-svg,
   .morph-svg.is-active {
+    transition: none;
+  }
+  .morph-targets {
     transition: none;
   }
 }

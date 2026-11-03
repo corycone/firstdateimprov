@@ -14,6 +14,7 @@ import {
 } from './mandalaGeometry';
 import scenes from './assets/data/scenes.json';
 import players from './assets/data/players.json';
+import shows from './assets/data/shows.json';
 import './Mandala.css';
 
 // Quick lookups for the center readout.
@@ -22,6 +23,11 @@ const SCENE_COUNT_BY_SHOW = scenes.reduce((acc, s) => {
   acc[s.showTitle] = (acc[s.showTitle] || 0) + 1;
   return acc;
 }, {});
+
+// Season totals — derived from the data so they never go stale.
+const SHOW_COUNT = shows.length;
+const SCENE_COUNT = scenes.length;
+const PLAYER_COUNT = players.length;
 
 const DIM_OPACITY = 0.18;
 
@@ -33,7 +39,14 @@ function topInitiators(initiations) {
   return entries.filter(([, c]) => c === maxC).map(([name]) => name);
 }
 
-function Mandala({ hoverPlayer, onHoverPlayer, lockedPlayer, onLockPlayer, centerFaded = false }) {
+function Mandala({
+  hoverPlayer,
+  onHoverPlayer,
+  lockedPlayer,
+  onLockPlayer,
+  centerFaded = false,
+  onExpandShow,
+}) {
   // Transient hover preview state (D3 only computes geometry; React drives UI).
   const [hoverSegment, setHoverSegment] = useState(null); // segment object
   const [hoverShow, setHoverShow] = useState(null); // showMeta object
@@ -104,7 +117,10 @@ function Mandala({ hoverPlayer, onHoverPlayer, lockedPlayer, onLockPlayer, cente
         },
       };
     }
-    return { kind: 'default' };
+    return {
+      kind: 'default',
+      data: { shows: SHOW_COUNT, scenes: SCENE_COUNT, players: PLAYER_COUNT },
+    };
   };
 
   // Build a filename reflecting the current filter.
@@ -273,6 +289,20 @@ function Mandala({ hoverPlayer, onHoverPlayer, lockedPlayer, onLockPlayer, cente
           {inits.length > 0 && (
             <div className="mc-foot">initiated by {inits.join(', ')}</div>
           )}
+          {/* Expand is only offered when a show is LOCKED (not merely hovered):
+              the effShow branch also renders on hover, so gate on lockedShow. */}
+          {lockedShow && (
+            <button
+              type="button"
+              className="mandala-expand"
+              onClick={(e) => {
+                e.stopPropagation();
+                onExpandShow?.(meta);
+              }}
+            >
+              ⤢ Expand
+            </button>
+          )}
         </div>
       );
     }
@@ -285,15 +315,15 @@ function Mandala({ hoverPlayer, onHoverPlayer, lockedPlayer, onLockPlayer, cente
         <div className="mc-sub mc-sub-dim">CONSERVATORY · 2025–26</div>
         <dl className="mc-stats mc-stats-kpi">
           <div className="mc-stat">
-            <dd className="mc-stat-num">25</dd>
+            <dd className="mc-stat-num">{SHOW_COUNT}</dd>
             <dt className="mc-stat-label">shows</dt>
           </div>
           <div className="mc-stat">
-            <dd className="mc-stat-num">1043</dd>
+            <dd className="mc-stat-num">{SCENE_COUNT}</dd>
             <dt className="mc-stat-label">scenes</dt>
           </div>
           <div className="mc-stat">
-            <dd className="mc-stat-num">11</dd>
+            <dd className="mc-stat-num">{PLAYER_COUNT}</dd>
             <dt className="mc-stat-label">players</dt>
           </div>
         </dl>
@@ -304,10 +334,10 @@ function Mandala({ hoverPlayer, onHoverPlayer, lockedPlayer, onLockPlayer, cente
   return (
     <div className="mandala-wrap" ref={wrapRef} onMouseLeave={clearHover}>
       <svg
-        className="mandala-svg"
+        className={`mandala-svg${centerFaded ? ' is-morphing' : ''}`}
         viewBox={`${VB_X} ${VB_Y} ${VB_W} ${VB_H}`}
         role="img"
-        aria-label="Season mandala: 25 wedges, one per show; each ring band is a scene colored by player."
+        aria-label={`Season mandala: ${SHOW_COUNT} wedges, one per show; each ring band is a scene colored by player.`}
       >
         {/* faint concentric grid */}
         {gridRadii.map((r, i) => (

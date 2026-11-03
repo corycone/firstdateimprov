@@ -49,22 +49,38 @@ export const globalMax = max(PLAYER_ORDER, (p) =>
   max(SLOTS, (sl) => byPlayerSlot[p]?.[sl] || 0)
 );
 
-const A_STEP = (2 * Math.PI) / SLOTS.length;
+// Slots excluding the third-round beats. Third-round scenes (3*) have a very
+// different structure (long tag runs, group-heavy) that skews the fingerprint,
+// so the player profile opts to leave them out.
+export const SLOTS_NO_THIRDS = SLOTS.filter((s) => s !== '3s');
 
-// Radius scale for a fingerprint of outer radius R.
-export function makeRadiusScale(R) {
-  return scaleSqrt().domain([0, globalMax]).range([R * 0.12, R]);
+// Largest single-slot value across all players, over the non-thirds slots only
+// (so excluding 3s still uses the full radius range rather than shrinking every
+// wedge against a 3s-inflated domain).
+export const globalMaxNoThirds = max(PLAYER_ORDER, (p) =>
+  max(SLOTS_NO_THIRDS, (sl) => byPlayerSlot[p]?.[sl] || 0)
+);
+
+// Radius scale for a fingerprint of outer radius R. `excludeThirds` swaps the
+// domain max to the non-thirds max so the remaining wedges fill the radius.
+export function makeRadiusScale(R, excludeThirds = false) {
+  const domainMax = excludeThirds ? globalMaxNoThirds : globalMax;
+  return scaleSqrt().domain([0, domainMax]).range([R * 0.12, R]);
 }
 
-// Build the 9 slot wedges (plus labels) for a player at outer radius R.
-export function fingerprintWedges(name, R) {
+// Build the slot wedges (plus labels) for a player at outer radius R.
+// When excludeThirds is true the "3s" slot is dropped and the remaining slots
+// re-space evenly around the full circle.
+export function fingerprintWedges(name, R, { excludeThirds = false } = {}) {
   const data = byPlayerSlot[name] || {};
-  const rScale = makeRadiusScale(R);
+  const slots = excludeThirds ? SLOTS_NO_THIRDS : SLOTS;
+  const aStep = (2 * Math.PI) / slots.length;
+  const rScale = makeRadiusScale(R, excludeThirds);
   const arcGen = arc();
   const lr = R + 14;
-  return SLOTS.map((slot, i) => {
-    const a0 = i * A_STEP + 0.03;
-    const a1 = (i + 1) * A_STEP - 0.03;
+  return slots.map((slot, i) => {
+    const a0 = i * aStep + 0.03;
+    const a1 = (i + 1) * aStep - 0.03;
     const value = data[slot] || 0;
     const d = arcGen({
       innerRadius: R * 0.1,
