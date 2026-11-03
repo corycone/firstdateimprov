@@ -1,0 +1,144 @@
+.poster {
+  background: #0f1020;
+  min-height: 100vh;
+  color: #f5f3ee;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  box-sizing: border-box;
+}
+
+.poster-title-block {
+  max-width: 820px;
+  margin: 0 auto 32px;
+  text-align: center;
+}
+
+.poster-title {
+  font-size: clamp(3rem, 9vw, 5.5rem);
+  font-weight: bold;
+  letter-spacing: 6px;
+  margin: 0;
+  color: #f5f3ee;
+}
+
+.poster-subtitle {
+  color: #ff9e45;
+  letter-spacing: 5px;
+  font-size: clamp(0.75rem, 2vw, 1.1rem);
+  margin-top: 10px;
+}
+
+.poster-season {
+  color: #8a88a0;
+  letter-spacing: 5px;
+  font-size: clamp(0.7rem, 1.8vw, 1rem);
+  margin-top: 6px;
+}
+
+.poster-divider {
+  border: none;
+  border-top: 1px solid rgba(138, 136, 160, 0.4);
+  margin: 20px auto;
+  max-width: 760px;
+}
+
+.poster-kpis {
+  display: flex;
+  justify-content: center;
+  gap: clamp(32px, 8vw, 72px);
+  margin: 24px auto 0;
+  padding: 0;
+}
+
+.poster-kpi {
+  text-align: center;
+}
+
+.poster-kpi-number {
+  margin: 0;
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  font-weight: bold;
+  line-height: 1;
+  color: #f5f3ee;
+}
+
+.poster-kpi-label {
+  margin: 8px 0 0;
+  font-size: clamp(0.7rem, 1.6vw, 0.9rem);
+  letter-spacing: 3px;
+  color: #8a88a0;
+}
+
+.poster-centerpiece {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.poster-legend {
+  flex: 0 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 14px;
+  margin: 0 auto 8px;
+}
+
+.poster-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: #f5f3ee;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: opacity 160ms ease, border-color 160ms ease;
+}
+
+.poster-legend-item:hover,
+.poster-legend-item:focus-visible {
+  border-color: rgba(245, 243, 238, 0.25);
+  outline: none;
+}
+
+.poster-legend-item.is-locked {
+  border-color: rgba(245, 243, 238, 0.6);
+  background: rgba(245, 243, 238, 0.06);
+}
+
+.poster-legend-swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  flex: 0 0 auto;
+}
+
+.poster-legend-name {
+  line-height: 1;
+}
+
+.poster-placeholder {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 28px 24px;
+  border: 1px dashed rgba(138, 136, 160, 0.4);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.poster-placeholder-title {
+  color: #f5f3ee;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  margin: 0 0 8px;
+}
+
+.poster-placeholder-note {
+  color: #8a88a0;
+  font-size: 0.9rem;
+  font-style: italic;
+  margin: 0;
+}

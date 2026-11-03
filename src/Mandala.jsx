@@ -33,7 +33,7 @@ function topInitiators(initiations) {
   return entries.filter(([, c]) => c === maxC).map(([name]) => name);
 }
 
-function Mandala({ hoverPlayer, onHoverPlayer, lockedPlayer, onLockPlayer }) {
+function Mandala({ hoverPlayer, onHoverPlayer, lockedPlayer, onLockPlayer, centerFaded = false }) {
   // Transient hover preview state (D3 only computes geometry; React drives UI).
   const [hoverSegment, setHoverSegment] = useState(null); // segment object
   const [hoverShow, setHoverShow] = useState(null); // showMeta object
@@ -431,7 +431,7 @@ function Mandala({ hoverPlayer, onHoverPlayer, lockedPlayer, onLockPlayer }) {
           effective selection (locked, else hovered); default shows the team
           identity + season KPIs. */}
       <div
-        className="mandala-center"
+        className={`mandala-center${centerFaded ? ' is-faded' : ''}`}
         style={{
           width: `${(INNER_R * 2 * 100) / VB_W}%`,
           height: `${(INNER_R * 2 * 100) / VB_H}%`,

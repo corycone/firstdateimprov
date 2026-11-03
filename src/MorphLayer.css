@@ -1,0 +1,65 @@
+/* MorphLayer — CSS drives the whole tween. React flips the `.is-active` class
+   on the parent <svg> once per phase change; every <path> then eases from its
+   START (identity arc position) to its END transform (set via --end-transform).
+   No per-frame React re-render of the 1043 nodes. */
+
+.morph-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  pointer-events: none; /* overlay only; interaction lives on the grid / mandala */
+  /* Hidden at rest in the mandala phase so the real mandala shows cleanly. On
+     the way OUT we delay the hide by the morph duration so the squares stay
+     visible as they fly back home, then snap off. */
+  opacity: 0;
+  transition: opacity 0ms linear 800ms;
+}
+
+/* When active, appear instantly (opacity, no delay) so the overlay squares sit
+   exactly on top of the real mandala segments at identity, then the per-path
+   transforms carry them out — a seamless handoff. */
+.morph-svg.is-active {
+  opacity: 1;
+  transition: opacity 0ms linear 0ms;
+}
+
+.morph-group {
+  will-change: transform;
+}
+
+.morph-seg {
+  /* START state: the square shifted onto its native mandala position (its `d`
+     is origin-centered; --start-transform = translate(CX,CY)), so each overlay
+     square sits pixel-on-top of the real mandala segment underneath.
+     transform-box:view-box + transform-origin:0 0 make the per-path CSS
+     transform operate in absolute view-box user units, matching the ABSOLUTE
+     coordinate math in MorphLayer.jsx — no dependency on a parent <g>. */
+  transform: var(--start-transform);
+  transform-box: view-box;
+  transform-origin: 0 0;
+  fill-opacity: 0.9;
+  transition:
+    transform 800ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill-opacity 800ms ease-in-out;
+}
+
+/* END state: squares fly to their fingerprint wedge centroid and fade toward a
+   shared, lighter opacity so the merged wedge reads as one object ("the mandala
+   gathers itself into 11 fingerprints"). */
+.morph-svg.is-active .morph-seg {
+  transform: var(--end-transform);
+  fill-opacity: 0.6;
+}
+
+/* Reduced motion: snap to the END/START state with no tween. */
+@media (prefers-reduced-motion: reduce) {
+  .morph-seg {
+    transition: none;
+  }
+  .morph-svg,
+  .morph-svg.is-active {
+    transition: none;
+  }
+}
