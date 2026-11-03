@@ -103,36 +103,7 @@
   cursor: pointer;
 }
 
-/* Profile placeholder (real PlayerProfile arrives in FEAT-003). */
-.story-profile-placeholder {
-  position: fixed;
-  inset: 5vh 5vw;
-  z-index: 40;
-  background: #15162b;
-  border: 1px solid rgba(245, 243, 238, 0.2);
-  border-radius: 14px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.story-profile-close {
-  position: absolute;
-  top: 18px;
-  right: 22px;
-  background: transparent;
-  border: none;
-  color: #8a88a0;
-  font-family: 'Georgia', 'Times New Roman', serif;
-  font-size: 1.1rem;
-  cursor: pointer;
-}
-
-.story-profile-body {
-  font-family: 'Georgia', 'Times New Roman', serif;
-  font-size: clamp(2rem, 6vw, 3.5rem);
-  font-weight: bold;
-}
+/* The real player profile dialog lives in PlayerProfile.jsx / .css. */
 
 @media (max-width: 900px) {
   .story-grid {

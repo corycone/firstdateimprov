@@ -24,6 +24,7 @@ import { useEffect, useRef, useState } from 'react';
 import Mandala from './Mandala';
 import MorphLayer from './MorphLayer';
 import Fingerprint from './Fingerprint';
+import PlayerProfile from './PlayerProfile';
 import { PLAYER_COLORS, PLAYER_ORDER } from './palette';
 import './SeasonStory.css';
 
@@ -144,16 +145,9 @@ function SeasonStory() {
         </div>
       </section>
 
-      {/* ===== Scene 3: profile (placeholder until FEAT-003) ===== */}
+      {/* ===== Scene 3: player profile ===== */}
       {phase === 'profile' && profilePlayer && (
-        <div className="story-profile-placeholder" role="dialog" aria-label={`${profilePlayer} profile`}>
-          <button type="button" className="story-profile-close" onClick={closeProfile}>
-            ✕ close
-          </button>
-          <div className="story-profile-body" style={{ color: PLAYER_COLORS[profilePlayer] }}>
-            {profilePlayer}
-          </div>
-        </div>
+        <PlayerProfile name={profilePlayer} onClose={closeProfile} />
       )}
     </div>
   );

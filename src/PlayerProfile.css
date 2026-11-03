@@ -1,0 +1,232 @@
+/* PlayerProfile — the per-player profile dialog (FEAT-003).
+   Mirrors mocks/scrolly-profile.png: a dark panel bordered in the player's
+   color (--player-color), header + headline stats + fingerprint + three slot
+   breakdowns + season-arc strip. The enter animation fades the backdrop and
+   fades/scales the panel in; prefers-reduced-motion snaps. */
+
+.profile-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 3vh 3vw;
+  box-sizing: border-box;
+  overflow-y: auto;
+  background: rgba(15, 16, 32, 0.78);
+  /* Fade the backdrop in with the phase change. */
+  animation: profile-backdrop-in 320ms ease both;
+}
+
+.profile-panel {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  box-sizing: border-box;
+  background: #15162b;
+  border: 1px solid var(--player-color, rgba(245, 243, 238, 0.4));
+  border-radius: 14px;
+  padding: 40px 56px 48px;
+  /* Scale/fade the clicked fingerprint's profile in toward its anchor. */
+  animation: profile-panel-in 420ms cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+@keyframes profile-backdrop-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes profile-panel-in {
+  from {
+    opacity: 0;
+    transform: scale(0.94) translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ===== Header ===== */
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.profile-name {
+  margin: 0;
+  font-weight: bold;
+  font-size: clamp(2.2rem, 5vw, 3.25rem);
+  line-height: 1.05;
+}
+
+.profile-kicker {
+  margin: 6px 0 0;
+  color: #8a88a0;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+}
+
+.profile-close {
+  background: transparent;
+  border: none;
+  color: #8a88a0;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 4px 6px;
+  white-space: nowrap;
+  transition: color 160ms ease;
+}
+
+.profile-close:hover,
+.profile-close:focus-visible {
+  color: #f5f3ee;
+}
+
+/* ===== Headline stat row ===== */
+.profile-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px 52px;
+  margin: 30px 0 10px;
+}
+
+.profile-stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-stat-num {
+  color: #f5f3ee;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  line-height: 1;
+}
+
+.profile-stat-label {
+  margin-top: 6px;
+  color: #8a88a0;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 0.78rem;
+  letter-spacing: 1.5px;
+}
+
+/* ===== Body layout: fingerprint left, breakdowns right ===== */
+.profile-body {
+  display: grid;
+  grid-template-columns: minmax(280px, 360px) 1fr;
+  gap: 40px;
+  margin-top: 28px;
+  align-items: start;
+}
+
+.profile-section-label {
+  margin: 0 0 12px;
+  color: #8a88a0;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 0.78rem;
+  letter-spacing: 2px;
+}
+
+.profile-fingerprint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-fingerprint .profile-section-label {
+  align-self: flex-start;
+}
+
+/* ===== Breakdowns ===== */
+.profile-breakdowns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px 40px;
+}
+
+.profile-bars {
+  min-width: 0;
+}
+
+.profile-bar-row {
+  display: grid;
+  grid-template-columns: 34px 1fr 36px;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.profile-bar-slot {
+  color: #8a88a0;
+  font-family: 'Courier New', monospace;
+  font-size: 0.72rem;
+}
+
+.profile-bar-track {
+  position: relative;
+  height: 16px;
+  background: rgba(245, 243, 238, 0.06);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.profile-bar-fill {
+  display: block;
+  height: 100%;
+  border-radius: 2px;
+  transition: width 420ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.profile-bar-val {
+  color: #f5f3ee;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 0.78rem;
+  text-align: right;
+}
+
+/* ===== Season-arc strip ===== */
+.profile-arc {
+  grid-column: 1 / -1;
+}
+
+.profile-arc-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.profile-arc-cell {
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+}
+
+@media (max-width: 960px) {
+  .profile-panel {
+    padding: 28px 24px 36px;
+  }
+  .profile-body {
+    grid-template-columns: 1fr;
+  }
+  .profile-breakdowns {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Reduced motion: snap the panel/backdrop/bars in, no tween. */
+@media (prefers-reduced-motion: reduce) {
+  .profile-backdrop,
+  .profile-panel {
+    animation: none;
+  }
+  .profile-bar-fill {
+    transition: none;
+  }
+}
