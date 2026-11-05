@@ -1,0 +1,116 @@
+/* SceneChord — the "Scene Partners" chord chapter.
+   Fills + centers within .story-stage, hidden at rest and revealed only when
+   .is-active (the sceneChord phase). It fades + scales in as the small
+   multiples fade out, a clean crossfade (NOT a literal morph of the squares).
+   Serif rim labels + a dark tooltip mirroring .showdetail-tooltip.
+   prefers-reduced-motion disables every transition. */
+
+.scene-chord {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: scale(0.96);
+  pointer-events: none;
+  transition: opacity 520ms ease, transform 520ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scene-chord.is-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.scene-chord.is-active .scene-chord-group {
+  pointer-events: auto;
+}
+
+.scene-chord-svg {
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.scene-chord-group {
+  cursor: pointer;
+}
+
+.scene-chord-label {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  transition: fill 160ms ease;
+}
+
+.scene-chord-center {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.scene-chord-sub {
+  font-size: 13px;
+}
+
+/* Cursor-following tooltip — dark, bordered, non-interactive (mirrors
+   .showdetail-tooltip). The player's top scene partners with shared counts. */
+.scene-chord-tooltip {
+  position: absolute;
+  pointer-events: none;
+  transform: translate(14px, 14px);
+  z-index: 5;
+  max-width: 240px;
+  background: rgba(15, 16, 32, 0.96);
+  border: 1px solid rgba(245, 243, 238, 0.18);
+  border-radius: 8px;
+  padding: 9px 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.55);
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.scene-chord-tip-title {
+  color: #f5f3ee;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.scene-chord-tip-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.scene-chord-tip-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #f5f3ee;
+  font-size: 0.82rem;
+}
+
+.scene-chord-tip-swatch {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+  flex: 0 0 auto;
+}
+
+.scene-chord-tip-count {
+  margin-left: auto;
+  padding-left: 12px;
+  color: #8a88a0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scene-chord {
+    transition: none;
+  }
+  .scene-chord-label {
+    transition: none;
+  }
+}

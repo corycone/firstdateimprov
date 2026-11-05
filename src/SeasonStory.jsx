@@ -24,9 +24,36 @@ import { useEffect, useRef, useState } from 'react';
 import Mandala from './Mandala';
 import MorphLayer from './MorphLayer';
 import PlayerProfile from './PlayerProfile';
+import SceneChord from './SceneChord';
 import ShowDetail from './ShowDetail';
 import { PLAYER_COLORS, PLAYER_ORDER } from './palette';
 import './SeasonStory.css';
+
+// Scroll-track sections. Each title lives in the LEFT column and is the thing
+// that actually scrolls (the viz stays pinned), giving visual scroll feedback.
+// The next section's title rides up to the same anchor position as the last
+// one leaves. The phase flips inside section 2 (see the sentinel below).
+const SECTIONS = [
+  {
+    kicker: 'BALTIMORE IMPROV GROUP · CONSERVATORY HAROLD TEAM · 2025–26',
+    title: 'First Date',
+    blurb:
+      'This graphic breaks down our entire season by player, beat, and scene. ' +
+      'Filter by selecting a show or a player from the names up top. ' +
+      'Selecting a show highlights it and reveals an Expand button for its full ' +
+      'detail. Use the Export image button to save any view.',
+  },
+  {
+    kicker: 'THE ENSEMBLE',
+    title: 'The Players',
+    blurb: "Click a player's chart to see their season profile.",
+  },
+  {
+    kicker: 'WHO SHARED THE STAGE',
+    title: 'Scene Partners',
+    blurb: 'Hover a name to trace their scene partners.',
+  },
+];
 
 function SeasonStory() {
   // Phase drives everything downstream (morph class, center fade, grid reveal).
@@ -41,6 +68,8 @@ function SeasonStory() {
   const [lockedPlayer, setLockedPlayer] = useState(null);
 
   const sentinelRef = useRef(null);
+  const sentinel2Ref = useRef(null);
+  const titleRefs = useRef([]);
 
   const toggleLockPlayer = (name) =>
     setLockedPlayer((prev) => (prev === name ? null : name));
@@ -61,13 +90,28 @@ function SeasonStory() {
     let ticking = false;
     const evaluate = () => {
       ticking = false;
-      const center = window.innerHeight / 2;
-      const scrolledPast = el.getBoundingClientRect().top <= center;
+      const vh = window.innerHeight;
+      const center = vh / 2;
+      // Fade each left-column title by its distance from the anchor (viewport
+      // vertical center): fully visible at the anchor, gone ~55% of a screen
+      // away, so titles ease in as they rise and out as they leave.
+      titleRefs.current.forEach((t) => {
+        if (!t) return;
+        const r = t.getBoundingClientRect();
+        const dist = Math.abs(r.top + r.height / 2 - center) / (vh * 0.55);
+        t.style.opacity = String(Math.max(0, Math.min(1, 1 - dist)));
+      });
+      // 3-stop position latch driven by two sentinels: past the first ->
+      // smallMultiples, past the second -> sceneChord, else mandala.
+      const el2 = sentinel2Ref.current;
+      const past1 = el.getBoundingClientRect().top <= center;
+      const past2 = el2 && el2.getBoundingClientRect().top <= center;
+      const next = past2 ? 'sceneChord' : past1 ? 'smallMultiples' : 'mandala';
       setPhase((prev) => {
         // profile + showDetail are explicit open/close overlays — scroll never
         // flips them; they return to their prior phase via their own close.
         if (prev === 'profile' || prev === 'showDetail') return prev;
-        return scrolledPast ? 'smallMultiples' : 'mandala';
+        return next;
       });
     };
     const onScroll = () => {
@@ -109,6 +153,9 @@ function SeasonStory() {
   };
 
   const morphActive = phase === 'smallMultiples' || phase === 'profile';
+  // The legend is hidden only in the small-multiples/profile chapter; it fades
+  // back in for the sceneChord chapter (and the plain mandala).
+  const legendHidden = phase === 'smallMultiples' || phase === 'profile';
 
   return (
     <div className={`story story--${phase}`}>
@@ -116,7 +163,11 @@ function SeasonStory() {
           The mandala + morph live here and are always centered on screen; the
           scroll track below drives the phase while this stays put. ===== */}
       <div className="story-viz" aria-hidden={false}>
-        <section className="poster-legend" aria-label="Team legend">
+        <section
+          className={`poster-legend${legendHidden ? ' is-hidden' : ''}`}
+          aria-label="Team legend"
+          aria-hidden={legendHidden}
+        >
           {PLAYER_ORDER.map((name) => (
             <button
               key={name}
@@ -149,33 +200,43 @@ function SeasonStory() {
           />
           {/* Morph overlay shares the mandala's coordinate space. */}
           <MorphLayer active={morphActive} onSelectPlayer={openProfile} />
-
-          <p
-            className={`story-prompt${morphActive ? ' is-visible' : ''}`}
-            aria-hidden={!morphActive}
-          >
-            SELECT A PLAYER TO SEE THEIR PROFILE
-          </p>
+          {/* Scene-partner chord — centered like the mandala, only visible and
+              interactive in the sceneChord phase. */}
+          <SceneChord active={phase === 'sceneChord'} />
         </section>
 
-        {/* Scroll hint — fades out once the morph begins. */}
+        {/* Scroll hint — bottom-left so it doesn't overlap the ring. Fades out
+            once the morph begins. */}
         <div className={`story-scrollhint${morphActive ? ' is-hidden' : ''}`} aria-hidden="true">
-          <span>scroll to break the season apart</span>
+          <span>scroll</span>
           <span className="story-scrollhint-arrow">↓</span>
         </div>
       </div>
 
-      {/* ===== SCROLL TRACK — the only thing that scrolls. Its height creates
-          the scroll distance; a sentinel partway down flips the phase while the
-          pinned viz morphs in place. (Narrative copy blocks will live here.) */}
-      <div className="story-track" aria-hidden="true">
-        {/* First panel: you scroll through this while the mandala stays whole. */}
-        <section className="story-panel" />
-        {/* Trigger line: once this reaches viewport center, the morph fires. */}
-        <div ref={sentinelRef} className="story-sentinel" />
-        {/* Second panel: scroll room so the morphed state has somewhere to live
-            and the trigger is stable (no instant re-toggle at the boundary). */}
-        <section className="story-panel" />
+      {/* ===== SCROLL TRACK — the only thing that scrolls. One full-screen
+          section per chapter, each with its title in the left column. The
+          titles scroll up into the same anchor spot while the viz stays pinned.
+          The track overlays the viz but ignores pointer events. ===== */}
+      <div className="story-track">
+        {SECTIONS.map((s, i) => (
+          <section className="story-panel" key={s.title}>
+            {/* Trigger line, ~30% into section 2: crossing the viewport center
+                (as that title rises toward its anchor) fires the morph. */}
+            {i === 1 && <div ref={sentinelRef} className="story-sentinel" />}
+            {i === 2 && <div ref={sentinel2Ref} className="story-sentinel" />}
+            <div
+              className="story-title"
+              ref={(el) => {
+                titleRefs.current[i] = el;
+              }}
+            >
+              <span className="story-title-rule" aria-hidden="true" />
+              <p className="story-title-kicker">{s.kicker}</p>
+              <h2 className="story-title-text">{s.title}</h2>
+              <p className="story-title-blurb">{s.blurb}</p>
+            </div>
+          </section>
+        ))}
       </div>
 
       {/* Player profile overlay. */}
