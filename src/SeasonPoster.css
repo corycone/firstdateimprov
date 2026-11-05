@@ -81,6 +81,15 @@
   justify-content: center;
   gap: 6px 14px;
   margin: 0 auto 8px;
+  transition: opacity 320ms ease;
+}
+
+/* In the small-multiples / profile view the top player filters hide (each
+   player already has their own chart); they fade back on scroll up to the
+   mandala. */
+.poster-legend.is-hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .poster-legend-item {

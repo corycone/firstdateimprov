@@ -18,14 +18,26 @@
 
 /* While the morph is active the real ring hides so ONLY the MorphLayer overlay
    (the squares in motion) is visible — otherwise the static ring underneath the
-   moving overlay reads as a garbled double image. The overlay squares start
-   pixel-on-top of these, so fading the ring out is a seamless handoff. */
+   moving overlay reads as a garbled double image.
+   Timing is ASYMMETRIC on purpose:
+   - ENTERING the morph (.is-morphing added): the ring hides immediately so the
+     overlay squares (which start pixel-on-top of it) take over cleanly.
+   - LEAVING the morph (.is-morphing removed, scroll back up): the ring stays
+     hidden until the squares have flown all the way home (~800ms morph), THEN
+     fades in — so you never see the finished ring with shapes still landing on
+     top of it. */
+.mandala-svg {
+  /* reverse (fade back in): wait for the squares to finish flying home
+     (~920ms) so the ring only reappears once the overlay has reconfigured and
+     hidden — never the finished ring with shapes still landing on top. A long,
+     soft fade (not a snap) eases the whole ring + rim labels in together.
+     Pure opacity — no transform — so nothing shifts position. */
+  transition: opacity 650ms ease-in-out 900ms;
+}
 .mandala-svg.is-morphing {
   opacity: 0;
-  transition: opacity 200ms ease;
-}
-.mandala-svg {
-  transition: opacity 200ms ease;
+  /* forward (hide): immediate, no delay */
+  transition: opacity 180ms ease 0ms;
 }
 
 /* React owns highlight state; CSS just animates the opacity it sets. */
@@ -38,6 +50,13 @@
   transition: fill-opacity 160ms ease;
   cursor: pointer;
   font-weight: 600;
+}
+
+/* Date prefix on each rim label — muted + lighter weight so the show title
+   stays dominant while the date reads clearly before it. */
+.mandala-rim-date {
+  fill: #8a88a0;
+  font-weight: 400;
 }
 
 .mandala-hit {

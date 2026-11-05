@@ -157,6 +157,109 @@ export function buildExportSVG({ geo, view, opacityOf, groupOpacityOf, labelOpac
   return s;
 }
 
+// ===========================================================================
+// PLAYER PROFILE POSTER
+// Composes the full profile (header, stat row, fingerprint, three slot
+// breakdowns, scenes-per-show chart) as a self-contained SVG, mirroring
+// PlayerProfile.jsx. Same approach as the mandala poster: SVG in, PNG out, no
+// html-to-canvas dependency.
+// ===========================================================================
+export function buildProfileSVG({
+  name,
+  color,
+  stats, // [[label, value], ...]
+  fpWedges, // fingerprint wedges (excl. thirds): [{ d, label, labelX, labelY }]
+  fpHub, // hub radius
+  fpRing, // outer ring radius
+  breakdowns, // [[title, [[slotLabel, value], ...]], ...]
+  maxBar, // shared max across the three breakdowns
+  arc, // [{ date, count }, ...] scenes per show
+  maxArc, // shared max scene count
+  tokens, // { bg, ink, muted }
+}) {
+  const { bg, ink, muted } = tokens;
+  const W = 1400;
+  const H = 900;
+  let s = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" font-family="Georgia, 'Times New Roman', serif">`;
+  s += `<rect width="${W}" height="${H}" fill="${bg}"/>`;
+  s += `<rect x="20" y="20" width="${W - 40}" height="${H - 40}" rx="14" fill="#15162b" stroke="${color}" stroke-opacity="0.45"/>`;
+
+  // header
+  s += `<text x="70" y="104" fill="${color}" font-size="52" font-weight="bold">${esc(name)}</text>`;
+  s += `<text x="72" y="134" fill="${muted}" font-size="14" letter-spacing="2">FIRST DATE · 2025–26 SEASON</text>`;
+
+  // stat row
+  const sx0 = 72;
+  const sgap = (W - 140) / stats.length;
+  stats.forEach(([label, val], i) => {
+    const x = sx0 + i * sgap;
+    s += `<text x="${x}" y="212" fill="${ink}" font-size="34" font-weight="bold">${esc(val)}</text>`;
+    s += `<text x="${x}" y="236" fill="${muted}" font-size="12" letter-spacing="1.3">${esc(String(label).toUpperCase())}</text>`;
+  });
+
+  // fingerprint (left)
+  const fcx = 240;
+  const fcy = 470;
+  s += `<text x="72" y="300" fill="${muted}" font-size="13" letter-spacing="2">SCENE FINGERPRINT (excl. 3rd beats)</text>`;
+  s += `<g transform="translate(${fcx},${fcy})">`;
+  s += `<circle r="${fpRing}" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>`;
+  for (const w of fpWedges) {
+    s += `<path d="${w.d}" fill="${color}" fill-opacity="0.9"/>`;
+  }
+  s += `<circle r="${fpHub}" fill="${color}" fill-opacity="0.9"/>`;
+  for (const w of fpWedges) {
+    s += `<text x="${w.labelX.toFixed(1)}" y="${w.labelY.toFixed(1)}" fill="${muted}" font-size="13" text-anchor="middle" dominant-baseline="middle">${esc(w.label)}</text>`;
+  }
+  s += `</g>`;
+
+  // three slot breakdowns (right)
+  const bx = 520;
+  const bw = 300;
+  const colW = 440;
+  breakdowns.forEach(([title, rows], bi) => {
+    const col = bi % 2;
+    const row = Math.floor(bi / 2);
+    const gx = bx + col * colW;
+    const gy = 300 + row * 190;
+    s += `<text x="${gx}" y="${gy}" fill="${muted}" font-size="12" letter-spacing="1.3">${esc(title)}</text>`;
+    const bh = 13;
+    const gap = 5;
+    rows.forEach(([slot, val], ri) => {
+      const ry = gy + 12 + ri * (bh + gap);
+      const fillW = maxBar > 0 ? (val / maxBar) * bw : 0;
+      s += `<text x="${gx}" y="${ry + bh - 2}" fill="${muted}" font-size="10" font-family="monospace">${esc(slot)}</text>`;
+      s += `<rect x="${gx + 34}" y="${ry}" width="${bw}" height="${bh}" rx="2" fill="#ffffff" fill-opacity="0.06"/>`;
+      s += `<rect x="${gx + 34}" y="${ry}" width="${fillW.toFixed(1)}" height="${bh}" rx="2" fill="${color}"/>`;
+      s += `<text x="${gx + 34 + bw + 6}" y="${ry + bh - 2}" fill="${ink}" font-size="10">${esc(val)}</text>`;
+    });
+  });
+
+  // scenes-per-show chart (bottom, full width)
+  const chY = 740;
+  const chX = 72;
+  const chW = W - 144;
+  const chTrack = 80;
+  s += `<text x="${chX}" y="${chY - 14}" fill="${muted}" font-size="13" letter-spacing="2">SCENES PER SHOW (across the season)</text>`;
+  const n = arc.length;
+  const cgap = 5;
+  const cw = Math.min(22, (chW - (n - 1) * cgap) / n);
+  const step = (chW - cw) / Math.max(1, n - 1);
+  const baseY = chY + chTrack;
+  arc.forEach((d, i) => {
+    const cx = chX + i * step;
+    const h = Math.max(2, (d.count / maxArc) * chTrack);
+    const fill = d.count > 0 ? color : '#2a2b44';
+    s += `<rect x="${cx.toFixed(1)}" y="${(baseY - h).toFixed(1)}" width="${cw.toFixed(1)}" height="${h.toFixed(1)}" rx="3" fill="${fill}"/>`;
+    if (d.count > 0) {
+      s += `<text x="${(cx + cw / 2).toFixed(1)}" y="${(baseY - h - 5).toFixed(1)}" fill="${ink}" font-size="11" font-weight="bold" text-anchor="middle">${d.count}</text>`;
+    }
+    s += `<text x="${(cx + cw / 2).toFixed(1)}" y="${baseY + 16}" fill="${muted}" font-size="8.5" text-anchor="middle">${esc(d.date)}</text>`;
+  });
+
+  s += `</svg>`;
+  return s;
+}
+
 // Rasterize an SVG string to a PNG blob at `scale` device pixels, then download.
 export async function downloadSVGasPNG(svgString, { width, height, scale = 2, filename = 'first-date-poster.png', bg = '#0f1020' }) {
   const blob = new Blob([svgString], { type: 'image/svg+xml;charset=utf-8' });

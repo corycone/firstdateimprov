@@ -267,6 +267,15 @@ function write(name, records, columns) {
 // RUN
 // ============================================================
 const { scenes, shows } = parseShows();
+
+// Attach each show's date from the hosting log. Both are chronological and
+// 1:1 (verified: 26 shows <-> 26 hosting entries, matching cadence), so the
+// i-th show (already sorted by index, null last) gets the i-th hosting date.
+const hosting = parseHosting();
+shows.forEach((s, i) => {
+  s.date = hosting.log[i]?.date ?? null; // ISO yyyy-mm-dd
+});
+
 write('scenes', scenes, ['showIndex','showTitle','sceneCode','sceneType','round','player','weight']);
 
 // flatten shows for CSV (totals/initiations are nested objects -> expand per player not ideal;
@@ -274,12 +283,13 @@ write('scenes', scenes, ['showIndex','showTitle','sceneCode','sceneType','round'
 const showsFlat = shows.map((s) => ({
   showIndex: s.showIndex,
   showTitle: s.showTitle,
+  date: s.date,
   rosterSize: s.roster.length,
   roster: s.roster.join('|'),
   showTotal: Object.values(s.totals).reduce((a, b) => a + b, 0),
 }));
 writeFileSync(join(OUT, 'shows.json'), JSON.stringify(shows, null, 2));
-writeFileSync(join(OUT, 'shows.csv'), toCSV(showsFlat, ['showIndex','showTitle','rosterSize','roster','showTotal']));
+writeFileSync(join(OUT, 'shows.csv'), toCSV(showsFlat, ['showIndex','showTitle','date','rosterSize','roster','showTotal']));
 console.log(`wrote shows: ${shows.length} rows`);
 
 const init = parseMatrix('Initiations', INIT_SLOTS);
@@ -294,7 +304,6 @@ const fj = parseMatrix('Full Joins', FJ_SLOTS);
 write('fulljoins', fj.tidy, ['player','slot','count']);
 writeFileSync(join(OUT, 'fulljoins.summary.json'), JSON.stringify(fj.summary, null, 2));
 
-const hosting = parseHosting();
 write('hosting', hosting.log, ['date','host','hostGuest','hostNote','wordGetter']);
 writeFileSync(join(OUT, 'hosting.summary.json'), JSON.stringify(hosting.summary, null, 2));
 

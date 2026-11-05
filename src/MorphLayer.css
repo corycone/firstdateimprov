@@ -11,10 +11,23 @@
   display: block;
   pointer-events: none; /* overlay only; interaction lives on the grid / mandala */
   /* Hidden at rest in the mandala phase so the real mandala shows cleanly. On
-     the way OUT we delay the hide by the morph duration so the squares stay
-     visible as they fly back home, then snap off. */
+     the way OUT we hold the overlay fully visible until the squares have flown
+     home (~900ms), then FADE it out (not a snap) so it crossfades gently with
+     the real ring fading back in underneath. */
   opacity: 0;
-  transition: opacity 0ms linear 800ms;
+  transition: opacity 550ms ease-in-out 900ms;
+}
+
+/* Handing off to the chord (not scrolling back to the mandala): the squares
+   HOLD their mini positions and the overlay fades out quickly, crossfading with
+   the chord fading in — no reverse-morph back to the ring (which looked like
+   the mandala reappearing). */
+.morph-svg.hold-on-exit {
+  transition: opacity 360ms ease-in-out 0ms;
+}
+.morph-svg.hold-on-exit .morph-seg {
+  transform: var(--end-transform);
+  transition: none;
 }
 
 /* When active, appear instantly (opacity, no delay) so the overlay squares sit
@@ -54,36 +67,67 @@
 /* Mini labels + click targets: hidden until the minis land, then fade in and
    become clickable. The overlay svg is pointer-events:none, so re-enable it
    just on the hit circles. */
-.morph-targets {
-  opacity: 0;
-  transition: opacity 300ms ease 500ms; /* appear after the squares arrive */
+
+/* Per-player mini group. The hover "grow" scales the whole group about the
+   mini's center (--mini-x/--mini-y, set inline in user units); transform-box:
+   view-box makes those px values resolve as view-box user units. The scale
+   composes on top of each square's own .morph-seg transform. */
+.morph-mini {
+  transform-box: view-box;
+  transform-origin: var(--mini-x) var(--mini-y);
+  transform: scale(1);
+  transition: opacity 260ms ease, transform 320ms cubic-bezier(0.34, 1.3, 0.64, 1);
 }
-.morph-targets.is-active {
-  opacity: 1;
+
+/* Hovered mini eases a bit bigger (and lifts via the springy curve above). */
+.morph-mini.is-active.is-hover {
+  transform: scale(1.12);
 }
-.morph-targets.is-active .morph-hit {
-  pointer-events: auto;
-  cursor: pointer;
+/* The other minis recede slightly so the hovered one stands out. */
+.morph-mini.is-active.is-faded {
+  opacity: 0.4;
 }
+
+/* Thin, subtle axis circles per mini — reference rings for the radial. */
+.morph-axis {
+  fill: none;
+  stroke: #ffffff;
+  stroke-opacity: 0.1;
+  stroke-width: 1;
+  transition: stroke-opacity 260ms ease;
+}
+.morph-mini.is-hover .morph-axis {
+  stroke-opacity: 0.22;
+}
+
+/* Labels + hit areas appear once the minis land. */
 .morph-label {
   fill: #f5f3ee;
   font-family: 'Georgia', 'Times New Roman', serif;
   font-size: 22px;
   font-weight: bold;
+  opacity: 0;
+  transition: opacity 300ms ease 500ms, fill 180ms ease;
 }
-.morph-target:hover .morph-label {
+.morph-mini.is-active .morph-label {
+  opacity: 1;
+}
+.morph-mini.is-active.is-hover .morph-label {
   fill: #ff9e45;
+}
+.morph-mini.is-active .morph-hit {
+  pointer-events: auto;
+  cursor: pointer;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .morph-seg {
-    transition: none;
-  }
+  .morph-seg,
+  .morph-mini,
   .morph-svg,
   .morph-svg.is-active {
     transition: none;
   }
-  .morph-targets {
-    transition: none;
+  .morph-mini.is-active.is-hover {
+    transform: none; /* no grow when reduced motion */
   }
 }

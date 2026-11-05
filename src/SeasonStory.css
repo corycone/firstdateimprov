@@ -41,30 +41,83 @@
    center (via the observer's rootMargin). */
 .story-track {
   position: relative;
-  z-index: 0;
+  z-index: 2; /* overlays the pinned viz so titles are always readable... */
+  pointer-events: none; /* ...but never blocks the viz underneath */
 }
 
-/* Each panel is one full screen of scroll. Two panels => ~2 screens of scroll,
-   with the morph firing as you pass the midpoint. (Narrative copy will live in
-   these panels later.) */
+/* Each panel is one full screen of scroll with its title anchored in the left
+   column, vertically centered. The viewport center is the "anchor": a title
+   sits exactly there when its panel is centered, and the next panel's title
+   rides up into the same spot. */
 .story-panel {
+  position: relative;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-left: clamp(16px, 3.5vw, 56px);
+  box-sizing: border-box;
 }
 
-/* Give the sentinel real height so it reliably overlaps the thin center-band
-   detection zone (a 1px line can miss a 0-height rootMargin band). */
+/* Morph trigger inside section 2. Real height so it reliably registers. */
 .story-sentinel {
+  position: absolute;
+  left: 0;
+  top: 30%;
   height: 2px;
   width: 100%;
+}
+
+/* ===== Left-column scroll title ===== */
+.story-title {
+  width: clamp(150px, 18vw, 280px);
+  font-family: 'Georgia', 'Times New Roman', serif;
+  text-shadow: 0 0 12px rgba(15, 16, 32, 0.9); /* legible if it nears the ring */
+  will-change: opacity;
+}
+
+.story-title-rule {
+  display: block;
+  width: 36px;
+  height: 3px;
+  margin-bottom: 14px;
+  background: #ff9e45;
+  border-radius: 2px;
+}
+
+.story-title-kicker {
+  margin: 0 0 8px;
+  color: #ff9e45;
+  font-size: 0.72rem;
+  letter-spacing: 3px;
+}
+
+.story-title-text {
+  margin: 0;
+  color: #f5f3ee;
+  font-weight: bold;
+  font-size: clamp(1.7rem, 3vw, 2.7rem);
+  line-height: 1.05;
+}
+
+.story-title-blurb {
+  margin: 12px 0 0;
+  color: #8a88a0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  /* The ring takes the whole width on narrow screens; keep just the title. */
+  .story-title-blurb { display: none; }
+  .story-title { width: 40vw; }
 }
 
 /* Scroll hint pinned near the bottom of the viz, nudging the user to scroll.
    Fades out once the morph begins. */
 .story-scrollhint {
   position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 18px;
+  left: clamp(16px, 3.5vw, 56px);
+  bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;

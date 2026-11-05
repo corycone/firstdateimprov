@@ -22,8 +22,122 @@
   transform: scale(1);
 }
 
-.scene-chord.is-active .scene-chord-group {
+/* When active, the chord SVG (not the full-viewport wrapper) catches pointer
+   events so clicks on its empty space can clear the selection; arcs/ribbons
+   handle their own clicks (stopPropagation), so only background clicks reach
+   the SVG handler. The wrapper stays pointer-events:none so it never blocks the
+   left-column title or scrolling. */
+.scene-chord.is-active .scene-chord-svg,
+.scene-chord.is-active .scene-chord-group,
+.scene-chord.is-active .scene-chord-ribbon {
   pointer-events: auto;
+}
+
+/* Ribbons: clickable, with a smooth fade as focus isolates one pair. */
+.scene-chord-ribbon {
+  cursor: pointer;
+  transition: fill-opacity 160ms ease, stroke-opacity 160ms ease;
+}
+
+/* Very subtle selection pulse: a quick brighten-and-settle when a band or
+   player is locked. Opacity-only (no transform) so geometry never shifts. The
+   React key changes on each lock, restarting the animation. */
+@keyframes scene-chord-pulse {
+  0% { filter: brightness(1); }
+  35% { filter: brightness(1.6); }
+  100% { filter: brightness(1); }
+}
+.scene-chord-ribbon.is-pulse,
+.scene-chord-arc.is-pulse {
+  animation: scene-chord-pulse 480ms ease-out 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scene-chord-ribbon.is-pulse,
+  .scene-chord-arc.is-pulse {
+    animation: none;
+  }
+}
+
+/* Persistent selection panel, right side of the chord area. */
+.scene-chord-panel {
+  position: absolute;
+  top: 50%;
+  right: clamp(16px, 3vw, 48px);
+  transform: translateY(-50%);
+  width: clamp(180px, 16vw, 240px);
+  font-family: 'Georgia', 'Times New Roman', serif;
+  color: #f5f3ee;
+  pointer-events: none;
+}
+
+.scene-chord-panel-name {
+  font-size: clamp(1.3rem, 2.4vw, 2rem);
+  font-weight: bold;
+  line-height: 1.05;
+  margin-bottom: 10px;
+}
+
+.scene-chord-panel-label {
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  color: #8a88a0;
+  margin-bottom: 8px;
+}
+
+.scene-chord-panel-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.scene-chord-panel-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+}
+
+.scene-chord-panel-partner {
+  font-weight: bold;
+}
+
+.scene-chord-panel-count {
+  margin-left: auto;
+  color: #8a88a0;
+}
+
+.scene-chord-panel-pair {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.15rem;
+}
+
+.scene-chord-panel-plus {
+  color: #8a88a0;
+}
+
+.scene-chord-panel-big {
+  margin-top: 12px;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: bold;
+  line-height: 1;
+}
+
+.scene-chord-panel-sub {
+  color: #8a88a0;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.scene-chord-panel-hint {
+  color: #8a88a0;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 .scene-chord-svg {
@@ -104,6 +218,21 @@
   margin-left: auto;
   padding-left: 12px;
   color: #8a88a0;
+}
+
+/* Pair tooltip (single-ribbon hover): both names + their shared-scene count. */
+.scene-chord-tip-pair {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.scene-chord-tip-amp {
+  color: #8a88a0;
+}
+.scene-chord-tip-sub {
+  margin-top: 6px;
+  color: #8a88a0;
+  font-size: 0.8rem;
 }
 
 @media (prefers-reduced-motion: reduce) {

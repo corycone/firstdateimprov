@@ -16,15 +16,45 @@
 import { useEffect } from 'react';
 import Fingerprint from './Fingerprint';
 import { PLAYER_COLORS, INK_TOKENS, SERIF } from './palette';
-import { SLOTS, SLOT_LABEL } from './fingerprintGeometry';
+import {
+  SLOTS,
+  SLOT_LABEL,
+  fingerprintWedges,
+  hubR,
+  ringR,
+} from './fingerprintGeometry';
+import { formatShowDate } from './mandalaGeometry';
+import { buildProfileSVG, downloadSVGasPNG } from './exportPoster';
 import players from './assets/data/players.json';
 import shows from './assets/data/shows.json';
+import scenes from './assets/data/scenes.json';
 import initSum from './assets/data/initiations.summary.json';
 import woSum from './assets/data/walkons.summary.json';
 import fjSum from './assets/data/fulljoins.summary.json';
 import './PlayerProfile.css';
 
 const PLAYER_STATS = Object.fromEntries(players.map((p) => [p.name, p]));
+
+// Per-player count of scene appearances (one scenes.json record = one player in
+// one scene), for the "scenes per show" stat.
+const SCENES_BY_PLAYER = scenes.reduce((acc, s) => {
+  acc[s.player] = (acc[s.player] || 0) + 1;
+  return acc;
+}, {});
+
+// Per-player, per-show scene count: SCENES_BY_PLAYER_SHOW[player][showTitle] =
+// how many scenes that player was in that show. Drives the season-arc graph.
+const SCENES_BY_PLAYER_SHOW = scenes.reduce((acc, s) => {
+  (acc[s.player] ||= {})[s.showTitle] = (acc[s.player]?.[s.showTitle] || 0) + 1;
+  return acc;
+}, {});
+
+// Largest single-show scene count for any player — shared y-scale so every
+// player's season-arc bars are comparable in height.
+const MAX_SCENES_IN_A_SHOW = Math.max(
+  1,
+  ...Object.values(SCENES_BY_PLAYER_SHOW).flatMap((byShow) => Object.values(byShow))
+);
 
 // shows.json sorted by showIndex ascending, null showIndex last (mirror the mock).
 const SHOWS_SORTED = shows
@@ -50,12 +80,22 @@ function PlayerProfile({ name, onClose }) {
     return () => window.removeEventListener('keydown', onKey);
   }, [onClose]);
 
-  // Headline stats (number over label), mirroring the mock.
+  // Scenes per show: this player's total scene-appearances divided by the
+  // number of shows they were in. Derived from the data (showsAppeared is the
+  // count of shows; totalScenes summed from the three slot summaries would
+  // double-count, so use the backbone scene count per player instead).
+  const scenesPerShow =
+    p.showsAppeared > 0 ? (SCENES_BY_PLAYER[name] || 0) / p.showsAppeared : 0;
+
+  // Headline stats (number over label). "Joined Initiator" = walked out as a
+  // scene partner to someone else's initiation (formerly the confusing "Full
+  // Joins"). The underlying data key stays `fulljoins`.
   const stats = [
     ['shows', p.showsAppeared],
+    ['scenes/show', scenesPerShow.toFixed(1)],
     ['initiations', p.totalInitiations],
     ['walk-ons', p.totalWalkons],
-    ['full joins', p.totalFullJoins],
+    ['joined initiator', p.totalFullJoins],
     ['hosts', p.hosts],
     ['words', p.gets],
   ];
@@ -72,8 +112,47 @@ function PlayerProfile({ name, onClose }) {
   const breakdowns = [
     ['INITIATIONS', initRow],
     ['WALK-ONS', woRow],
-    ['FULL JOINS', fjRow],
+    ['JOINED INITIATOR', fjRow],
   ];
+
+  // Export the full profile as a PNG (composed SVG -> canvas; see exportPoster).
+  const handleExport = async () => {
+    const R = 150;
+    const fpWedges = fingerprintWedges(name, R, { excludeThirds: true });
+    const arc = SHOWS_SORTED.map((show) => ({
+      date: formatShowDate(show.date),
+      count: SCENES_BY_PLAYER_SHOW[name]?.[show.showTitle] || 0,
+    }));
+    const svg = buildProfileSVG({
+      name,
+      color,
+      stats: stats.map(([label, val]) => [label, val]),
+      fpWedges: fpWedges.map((w) => ({
+        d: w.d,
+        label: SLOT_LABEL[w.slot] ?? w.slot,
+        labelX: w.labelX,
+        labelY: w.labelY,
+      })),
+      fpHub: hubR(R),
+      fpRing: ringR(R),
+      breakdowns: breakdowns.map(([title, row]) => [
+        title,
+        row.map(([slot, val]) => [SLOT_LABEL[slot] ?? slot, val]),
+      ]),
+      maxBar: maxAll,
+      arc,
+      maxArc: MAX_SCENES_IN_A_SHOW,
+      tokens: { bg: INK_TOKENS.bg, ink: INK_TOKENS.ink, muted: INK_TOKENS.muted },
+    });
+    const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    await downloadSVGasPNG(svg, {
+      width: 1400,
+      height: 900,
+      scale: 2,
+      filename: `first-date-${slug}.png`,
+      bg: INK_TOKENS.bg,
+    });
+  };
 
   return (
     <div
@@ -100,14 +179,23 @@ function PlayerProfile({ name, onClose }) {
             </h2>
             <p className="profile-kicker">FIRST DATE · 2025–26 SEASON</p>
           </div>
-          <button
-            type="button"
-            className="profile-close"
-            onClick={onClose}
-            aria-label="Close profile"
-          >
-            ✕ close
-          </button>
+          <div className="profile-header-actions">
+            <button
+              type="button"
+              className="profile-export"
+              onClick={handleExport}
+            >
+              ⤓ Save image
+            </button>
+            <button
+              type="button"
+              className="profile-close"
+              onClick={onClose}
+              aria-label="Close profile"
+            >
+              ✕ close
+            </button>
+          </div>
         </header>
 
         {/* ===== Headline stat row ===== */}
@@ -124,7 +212,7 @@ function PlayerProfile({ name, onClose }) {
         <div className="profile-body">
           <div className="profile-fingerprint">
             <p className="profile-section-label">
-              PARTICIPATION FINGERPRINT (by scene slot, excl. 3rd beats)
+              SCENE FINGERPRINT (by scene slot, excl. 3rd beats)
             </p>
             <Fingerprint name={name} R={150} labels excludeThirds />
           </div>
@@ -151,22 +239,37 @@ function PlayerProfile({ name, onClose }) {
               </div>
             ))}
 
-            {/* ===== Season-arc strip ===== */}
+            {/* ===== Season arc: scenes per show across the season ===== */}
             <div className="profile-arc">
-              <p className="profile-section-label">SEASON ARC (shows appeared)</p>
-              <div className="profile-arc-strip">
+              <p className="profile-section-label">SCENES PER SHOW (across the season)</p>
+              <div className="profile-arc-chart">
                 {SHOWS_SORTED.map((show, i) => {
-                  const inIt = (show.roster || []).includes(name);
+                  const count = SCENES_BY_PLAYER_SHOW[name]?.[show.showTitle] || 0;
+                  const pct = (count / MAX_SCENES_IN_A_SHOW) * 100;
                   return (
-                    <span
+                    <div
                       key={show.showIndex ?? `null-${i}`}
-                      className="profile-arc-cell"
-                      title={show.showTitle}
-                      style={{
-                        background: inIt ? color : '#2a2b44',
-                        opacity: inIt ? 0.95 : 0.6,
-                      }}
-                    />
+                      className="profile-arc-col"
+                      title={`${show.showTitle} (${formatShowDate(show.date)}): ${count} scene${count === 1 ? '' : 's'}`}
+                    >
+                      {/* bar grows from the baseline; the count label rides
+                          just above the bar's top so it tracks the bar height */}
+                      <span className="profile-arc-bar-track">
+                        <span
+                          className="profile-arc-bar"
+                          style={{
+                            height: `${pct}%`,
+                            background: count > 0 ? color : '#2a2b44',
+                          }}
+                        >
+                          {count > 0 && (
+                            <span className="profile-arc-count">{count}</span>
+                          )}
+                        </span>
+                      </span>
+                      {/* x-axis = show date */}
+                      <span className="profile-arc-date">{formatShowDate(show.date)}</span>
+                    </div>
                   );
                 })}
               </div>

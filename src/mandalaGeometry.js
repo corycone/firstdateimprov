@@ -59,6 +59,15 @@ export function sceneTypeLabel(type) {
   return SCENE_TYPE_LABELS[type] || type;
 }
 
+// Format an ISO yyyy-mm-dd show date as "M/D" for the rim label. Parse from
+// parts (not new Date(str), which interprets ISO as UTC and can shift a day).
+export function formatShowDate(iso) {
+  if (!iso) return '';
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso);
+  if (!m) return '';
+  return `${Number(m[2])}/${Number(m[3])}`;
+}
+
 // Build per-show -> ordered scenes -> participants (ported from the mock).
 export function showScenes(title) {
   const rows = scenes.filter((s) => s.showTitle === title);
@@ -178,6 +187,8 @@ export function buildGeometry() {
       initiations: show.initiations || {},
       total: showTotal,
       rosterSize: Array.isArray(show.roster) ? show.roster.length : 0,
+      date: show.date || null,
+      dateLabel: formatShowDate(show.date),
       hitD,
     });
   });

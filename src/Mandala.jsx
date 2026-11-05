@@ -166,7 +166,7 @@ function Mandala({
       <>
         <div className="mandala-tip-title">{seg.showTitle}</div>
         <div className="mandala-tip-row">
-          {seg.sceneCode} — {sceneTypeLabel(seg.sceneType)}
+          {seg.sceneCode} · {sceneTypeLabel(seg.sceneType)}
         </div>
         <div className="mandala-tip-row">
           <span className="mandala-tip-swatch" style={{ background: PLAYER_COLORS[seg.player] }} />
@@ -451,6 +451,9 @@ function Mandala({
               toggleLockShow(meta);
             }}
           >
+            {meta.dateLabel && (
+              <tspan className="mandala-rim-date">{meta.dateLabel} </tspan>
+            )}
             {meta.showTitle}
           </text>
         ))}
@@ -470,9 +473,11 @@ function Mandala({
         {renderCenter()}
       </div>
 
-      <button type="button" className="mandala-export" onClick={handleExport}>
-        ⤓ Export poster
-      </button>
+      {!centerFaded && (
+        <button type="button" className="mandala-export" onClick={handleExport}>
+          ⤓ Export poster
+        </button>
+      )}
 
       {tooltip && tooltip.content && (
         <div

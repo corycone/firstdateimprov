@@ -20,7 +20,7 @@
 // whole mandala space down by s and translate it to the player's grid cell.
 // Each square flies to the exact same relative spot it occupied in the big ring
 // — the big radial literally splits into 11 smaller ghost-rings, one per player.
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { PLAYER_COLORS, PLAYER_ORDER } from './palette';
 import {
   buildGeometry,
@@ -58,8 +58,15 @@ function gridCellCenter(i) {
   return { x, y };
 }
 
-function MorphLayer({ active, onSelectPlayer }) {
+// `holdOnExit`: when the overlay goes inactive while this is true, the squares
+// hold their mini positions and the overlay just fades out (used when handing
+// off to the chord). When false, inactivity reverse-morphs the squares back to
+// the mandala ring (used on scroll UP to the mandala).
+function MorphLayer({ active, onSelectPlayer, holdOnExit = false }) {
   const { segments } = useMemo(() => buildGeometry(), []);
+  // Which mini is hovered (only meaningful once landed). Drives the grow +
+  // fade-others hover treatment.
+  const [hoverPlayer, setHoverPlayer] = useState(null);
 
   // Per-square layout, computed ONCE. START is the native mandala position
   // (origin-centered `d` shifted onto the mandala center). END scales the whole
@@ -89,60 +96,82 @@ function MorphLayer({ active, onSelectPlayer }) {
     });
   }, [segments]);
 
+  // Thin concentric axis circles for a mini, at its grid-cell center. Drawn at
+  // the same radii the mandala's own grid uses, scaled into the mini.
+  const AXIS_FRACTIONS = [0.25, 0.5, 0.75, 1];
+
   return (
     <svg
-      className={`morph-svg${active ? ' is-active' : ''}`}
+      className={`morph-svg${active ? ' is-active' : ''}${holdOnExit ? ' hold-on-exit' : ''}`}
       viewBox={`${VB_X} ${VB_Y} ${VB_W} ${VB_H}`}
       aria-hidden="true"
     >
-      <g className="morph-group">
-        {segments.map((seg, i) => (
-          <path
-            key={seg.id}
-            className="morph-seg"
-            d={seg.d}
-            fill={PLAYER_COLORS[seg.player]}
-            style={{
-              // CSS drives the tween; React only sets these static per-square
-              // values once. START/END transforms are absolute (view-box) so
-              // they don't depend on a parent <g>. When .is-active toggles on
-              // the parent svg the transform eases from START to --end-transform.
-              '--start-transform': layout[i].startTransform,
-              '--end-transform': layout[i].endTransform,
-              transitionDelay: `${layout[i].delay}ms`,
-            }}
-          />
-        ))}
-      </g>
+      {/* One group per player: its axis circles + squares + label + hit area,
+          so a single hover transform can gently scale the WHOLE mini about its
+          center. The per-square morph transforms live on .morph-seg; this
+          wrapper's hover scale composes on top of them. */}
+      {PLAYER_ORDER.map((name, pi) => {
+        const { x, y } = gridCellCenter(pi);
+        const isHover = hoverPlayer === name;
+        return (
+          <g
+            key={name}
+            className={`morph-mini${active ? ' is-active' : ''}${
+              isHover ? ' is-hover' : ''
+            }${hoverPlayer && !isHover ? ' is-faded' : ''}`}
+            style={{ '--mini-x': `${x}px`, '--mini-y': `${y}px` }}
+          >
+            {/* thin axis circles (only meaningful once landed as minis) */}
+            {active &&
+              AXIS_FRACTIONS.map((f) => (
+                <circle
+                  key={`axis-${name}-${f}`}
+                  className="morph-axis"
+                  cx={x}
+                  cy={y}
+                  r={MINI_R * f}
+                />
+              ))}
 
-      {/* Mini labels + click targets, positioned at each mini-mandala center.
-          Only interactive once the minis have landed (active). Each is a circle
-          hit-area (radius MINI_R) plus the player name below it. */}
-      <g className={`morph-targets${active ? ' is-active' : ''}`}>
-        {PLAYER_ORDER.map((name, i) => {
-          const { x, y } = gridCellCenter(i);
-          return (
-            <g key={name} className="morph-target">
-              <circle
-                className="morph-hit"
-                cx={x}
-                cy={y}
-                r={MINI_R}
-                fill="transparent"
-                onClick={() => active && onSelectPlayer?.(name)}
-              />
-              <text
-                className="morph-label"
-                x={x}
-                y={y + MINI_R + 26}
-                textAnchor="middle"
-              >
-                {name}
-              </text>
-            </g>
-          );
-        })}
-      </g>
+            {/* this player's squares */}
+            {segments.map((seg, i) =>
+              seg.player === name ? (
+                <path
+                  key={seg.id}
+                  className="morph-seg"
+                  d={seg.d}
+                  fill={PLAYER_COLORS[seg.player]}
+                  style={{
+                    '--start-transform': layout[i].startTransform,
+                    '--end-transform': layout[i].endTransform,
+                    transitionDelay: `${layout[i].delay}ms`,
+                  }}
+                />
+              ) : null
+            )}
+
+            {/* label + hit area */}
+            <text
+              className="morph-label"
+              x={x}
+              y={y + MINI_R + 26}
+              textAnchor="middle"
+            >
+              {name}
+            </text>
+            <circle
+              className="morph-hit"
+              cx={x}
+              cy={y}
+              r={MINI_R}
+              fill="transparent"
+              onMouseEnter={() => active && setHoverPlayer(name)}
+              onMouseLeave={() => active && setHoverPlayer(null)}
+              onClick={() => active && onSelectPlayer?.(name)}
+            />
+          </g>
+        );
+      })}
     </svg>
   );
 }

@@ -51,7 +51,9 @@ const SECTIONS = [
   {
     kicker: 'WHO SHARED THE STAGE',
     title: 'Scene Partners',
-    blurb: 'Hover a name to trace their scene partners.',
+    blurb:
+      'Who shared the stage, and how often. Click a player to trace all their ' +
+      'partners, or click a single chord to focus one pairing.',
   },
 ];
 
@@ -159,9 +161,11 @@ function SeasonStory() {
   // image. MorphLayer stays keyed to morphActive (its minis do NOT belong in
   // sceneChord); only the base-ring hide extends to the chord phase.
   const ringHidden = morphActive || phase === 'sceneChord';
-  // The legend is hidden only in the small-multiples/profile chapter; it fades
-  // back in for the sceneChord chapter (and the plain mandala).
-  const legendHidden = phase === 'smallMultiples' || phase === 'profile';
+  // The legend (top player filters) is only relevant on the plain mandala. It
+  // hides for the small-multiples/profile AND the sceneChord chapter (the chord
+  // has its own selection panel + arc/ribbon interaction).
+  const legendHidden =
+    phase === 'smallMultiples' || phase === 'profile' || phase === 'sceneChord';
 
   return (
     <div className={`story story--${phase}`}>
@@ -204,11 +208,21 @@ function SeasonStory() {
             centerFaded={ringHidden}
             onExpandShow={openShowDetail}
           />
-          {/* Morph overlay shares the mandala's coordinate space. */}
-          <MorphLayer active={morphActive} onSelectPlayer={openProfile} />
+          {/* Morph overlay shares the mandala's coordinate space. In the chord
+              phase it holds mini positions and fades (no reverse-morph). */}
+          <MorphLayer
+            active={morphActive}
+            onSelectPlayer={openProfile}
+            holdOnExit={phase === 'sceneChord'}
+          />
           {/* Scene-partner chord — centered like the mandala, only visible and
-              interactive in the sceneChord phase. */}
-          <SceneChord active={phase === 'sceneChord'} />
+              interactive in the sceneChord phase. The top legend filters drive
+              it too: hovering/locking a name isolates that player in the chord. */}
+          <SceneChord
+            active={phase === 'sceneChord'}
+            legendHoverPlayer={hoverPlayer}
+            legendLockedPlayer={lockedPlayer}
+          />
         </section>
 
         {/* Scroll hint — bottom-left so it doesn't overlap the ring. Fades out

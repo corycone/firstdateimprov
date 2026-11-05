@@ -1,27 +1,27 @@
-showIndex,showTitle,rosterSize,roster,showTotal
-1,Footbath,8,Cory|Teresa|Jesa|Brendan|Jay|Sean|Lisa|Zach,29.75
-2,Groundhog Day,8,Cory|Teresa|Jesa|Brendan|Jay|Sean|Lisa|Zach,26
-3,Cheese Curls,8,Cory|Teresa|Jesa|Brendan|Jay|Sean|Lisa|Zach,21.25
-4,Porcupines,8,Cory|Teresa|Jesa|Brendan|Jay|Sean|Lisa|Zach,26
-5,Toothpaste,7,Cory|Teresa|Jesa|Brendan|Sean|Lisa|Zach,28.5
-6,Rocket Ship,7,Cory|Teresa|Jesa|Brendan|Sean|Lisa|Zach,23
-7,Supercalifrag...,7,Cory|Teresa|Jesa|Brendan|Sean|Lisa|Zach,28.5
-8,Thorn,7,Cory|Teresa|Jesa|Brendan|Sean|Lisa|Zach,24.25
-9,Square,7,Cory|Teresa|Jesa|Brendan|Sean|Lisa|Zach,31.75
-10,Pistachio,7,Cory|Teresa|Jesa|Brendan|Sean|Lisa|Zach,26
-11,Carousel,6,Cory|Teresa|Jesa|Brendan|Sean|Lisa,14.25
-12,Marshmallow,6,Cory|Teresa|Jesa|Brendan|Sean|Lisa,28.75
-13,Robots,6,Cory|Teresa|Jesa|Brendan|Sean|Lisa,28
-14,Tomato,6,Cory|Teresa|Jesa|Brendan|Sean|Lisa,27.25
-15,Caterpillar,6,Cory|Teresa|Jesa|Brendan|Sean|Lisa,22.5
-16,Gymnast,5,Cory|Teresa|Jesa|Brendan|Sean,27.5
-17,Bubble,8,Cory|Teresa|Jesa|Brendan|Sean|Brooke|Mindy|Taylor,27.5
-18,Roses,8,Cory|Teresa|Jesa|Brendan|Sean|Brooke|Mindy|Taylor,30.5
-19,Bedazzled,8,Cory|Teresa|Jesa|Brendan|Sean|Brooke|Mindy|Taylor,33.25
-21,Bubbles,8,Cory|Teresa|Jesa|Brendan|Sean|Brooke|Mindy|Taylor,28.5
-22,Rocks,8,Cory|Teresa|Jesa|Brendan|Sean|Brooke|Mindy|Taylor,35.5
-23,Rocketeer,8,Cory|Teresa|Jesa|Brendan|Sean|Brooke|Mindy|Taylor,37.25
-24,Energy,8,Cory|Teresa|Jesa|Brendan|Sean|Brooke|Mindy|Taylor,36
-25,Sand,8,Cory|Teresa|Jesa|Brendan|Sean|Brooke|Mindy|Taylor,34.5
-26,Eyeball,8,Cory|Teresa|Jesa|Brendan|Sean|Brooke|Mindy|Taylor,37.75
-,Exotic,8,Cory|Teresa|Jesa|Brendan|Sean|Brooke|Mindy|Taylor,19.75
+showIndex,showTitle,date,rosterSize,roster,showTotal
+1,Footbath,2025-11-06,8,Cory|Teresa|Jesa|Brendan|Jay|Sean|Lisa|Zach,29.75
+2,Groundhog Day,2025-11-20,8,Cory|Teresa|Jesa|Brendan|Jay|Sean|Lisa|Zach,26
+3,Cheese Curls,2025-12-04,8,Cory|Teresa|Jesa|Brendan|Jay|Sean|Lisa|Zach,21.25
+4,Porcupines,2025-12-18,8,Cory|Teresa|Jesa|Brendan|Jay|Sean|Lisa|Zach,26
+5,Toothpaste,2026-01-08,7,Cory|Teresa|Jesa|Brendan|Sean|Lisa|Zach,28.5
+6,Rocket Ship,2026-01-22,7,Cory|Teresa|Jesa|Brendan|Sean|Lisa|Zach,23
+7,Supercalifrag...,2026-02-05,7,Cory|Teresa|Jesa|Brendan|Sean|Lisa|Zach,28.5
+8,Thorn,2026-02-19,7,Cory|Teresa|Jesa|Brendan|Sean|Lisa|Zach,24.25
+9,Square,2026-03-05,7,Cory|Teresa|Jesa|Brendan|Sean|Lisa|Zach,31.75
+10,Pistachio,2026-03-19,7,Cory|Teresa|Jesa|Brendan|Sean|Lisa|Zach,26
+11,Carousel,2026-04-02,6,Cory|Teresa|Jesa|Brendan|Sean|Lisa,14.25
+12,Marshmallow,2026-04-16,6,Cory|Teresa|Jesa|Brendan|Sean|Lisa,28.75
+13,Robots,2026-04-30,6,Cory|Teresa|Jesa|Brendan|Sean|Lisa,28
+14,Tomato,2026-05-07,6,Cory|Teresa|Jesa|Brendan|Sean|Lisa,27.25
+15,Caterpillar,2026-05-21,6,Cory|Teresa|Jesa|Brendan|Sean|Lisa,22.5
+16,Gymnast,2026-06-04,5,Cory|Teresa|Jesa|Brendan|Sean,27.5
+17,Bubble,2026-06-18,8,Cory|Teresa|Jesa|Brendan|Sean|Brooke|Mindy|Taylor,27.5
+18,Roses,2026-07-02,8,Cory|Teresa|Jesa|Brendan|Sean|Brooke|Mindy|Taylor,30.5
+19,Bedazzled,2026-07-16,8,Cory|Teresa|Jesa|Brendan|Sean|Brooke|Mindy|Taylor,33.25
+21,Bubbles,2026-07-29,8,Cory|Teresa|Jesa|Brendan|Sean|Brooke|Mindy|Taylor,28.5
+22,Rocks,2026-08-06,8,Cory|Teresa|Jesa|Brendan|Sean|Brooke|Mindy|Taylor,35.5
+23,Rocketeer,2026-08-20,8,Cory|Teresa|Jesa|Brendan|Sean|Brooke|Mindy|Taylor,37.25
+24,Energy,2026-09-03,8,Cory|Teresa|Jesa|Brendan|Sean|Brooke|Mindy|Taylor,36
+25,Sand,2026-09-17,8,Cory|Teresa|Jesa|Brendan|Sean|Brooke|Mindy|Taylor,34.5
+26,Eyeball,2026-10-15,8,Cory|Teresa|Jesa|Brendan|Sean|Brooke|Mindy|Taylor,37.75
+,Exotic,2026-10-29,8,Cory|Teresa|Jesa|Brendan|Sean|Brooke|Mindy|Taylor,19.75

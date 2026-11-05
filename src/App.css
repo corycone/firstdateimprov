@@ -70,6 +70,13 @@ body {
   color: #f5f3ee;
 }
 
+/* Palette toggle sits just left of the Stats link so they don't overlap. */
+.app-corner-link--palette {
+  right: 86px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
 .card {
   padding: 2em;
 }
