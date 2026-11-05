@@ -262,6 +262,53 @@
   text-align: right;
 }
 
+/* ===== Right column swap: whole-show <-> scene view ===== */
+/* Keyed remount (whole-show / scene code) triggers this brief opacity fade so
+   the right column eases between views instead of snapping. */
+.showdetail-scene {
+  animation: showdetail-scene-in 220ms ease both;
+}
+
+@keyframes showdetail-scene-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Scene code + human-readable type line. */
+.showdetail-scene-code {
+  margin: 0 0 4px;
+  color: #f5f3ee;
+  font-family: 'Courier New', monospace;
+  font-size: 1.05rem;
+  font-weight: bold;
+}
+
+/* Cast list for the active scene: swatch + colored name + share. */
+.showdetail-scene-cast {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.showdetail-scene-castrow {
+  display: grid;
+  grid-template-columns: auto 1fr 44px;
+  align-items: center;
+  gap: 10px;
+}
+
+.showdetail-scene-castname {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 0.95rem;
+}
+
+.showdetail-scene-castshare {
+  color: #8a88a0;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 0.82rem;
+  text-align: right;
+}
+
 /* ===== Scene hover tooltip ===== */
 .showdetail-tooltip {
   position: absolute;
@@ -325,5 +372,8 @@
   }
   .showdetail-bar-fill {
     transition: none;
+  }
+  .showdetail-scene {
+    animation: none;
   }
 }

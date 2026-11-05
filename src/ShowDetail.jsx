@@ -148,16 +148,26 @@ function ShowDetail({ show, onClose }) {
     []
   );
 
-  // Headline stats — all derived from data (no hardcoded counts).
+  // Headline stats — all derived from data (no hardcoded counts). Weight is
+  // NOT a timeline, so there's no "stage time" stat here.
   const sceneCount = rings.length;
   const onStage = (showRecord.roster || []).length;
-  const stageTime = d3sum(Object.values(showRecord.totals || {}));
 
   const openers = openedMostScenes(title);
 
-  // Per-player stage-time bars from shows.json totals, sorted desc.
-  const barEntries = PLAYER_ORDER.filter((p) => showRecord.totals?.[p] != null)
-    .map((p) => [p, showRecord.totals[p]])
+  // Per-player SCENE COUNT for this show (how many of the show's scenes each
+  // player appeared in) — a count, not a weighted/time measure. Sorted desc.
+  const sceneCountByPlayer = useMemo(() => {
+    const m = {};
+    rings.forEach((ring) => {
+      ring.cast.forEach((c) => {
+        m[c.player] = (m[c.player] || 0) + 1;
+      });
+    });
+    return m;
+  }, [rings]);
+  const barEntries = PLAYER_ORDER.filter((p) => sceneCountByPlayer[p] != null)
+    .map((p) => [p, sceneCountByPlayer[p]])
     .sort((a, b) => b[1] - a[1]);
   const maxBar = Math.max(1, ...barEntries.map(([, v]) => v));
 
@@ -177,7 +187,7 @@ function ShowDetail({ show, onClose }) {
               {title}
             </h2>
             <p className="showdetail-kicker">
-              SHOW {showRecord.showIndex ?? '—'} OF {TOTAL_SHOWS} · FIRST DATE 2025–26
+              SHOW {showRecord.showIndex ?? '·'} OF {TOTAL_SHOWS} · FIRST DATE 2025–26
             </p>
           </div>
           <button
@@ -271,47 +281,83 @@ function ShowDetail({ show, onClose }) {
           </div>
 
           <div className="showdetail-stats">
-            {/* headline stats row */}
-            <div className="showdetail-headline">
-              <div className="showdetail-stat">
-                <span className="showdetail-stat-num">{sceneCount}</span>
-                <span className="showdetail-stat-label">SCENES</span>
-              </div>
-              <div className="showdetail-stat">
-                <span className="showdetail-stat-num">{onStage}</span>
-                <span className="showdetail-stat-label">ON STAGE</span>
-              </div>
-              <div className="showdetail-stat">
-                <span className="showdetail-stat-num">{stageTime.toFixed(1)}</span>
-                <span className="showdetail-stat-label">STAGE TIME</span>
-              </div>
-            </div>
-
-            {openers.length > 0 && (
-              <p className="showdetail-openers" style={{ color: AMBER }}>
-                opened the most scenes: {openers.join(', ')}
-              </p>
-            )}
-
-            {/* per-player stage-time bars */}
-            <p className="showdetail-section-label">STAGE TIME THIS SHOW</p>
-            <div className="showdetail-bars">
-              {barEntries.map(([player, val]) => (
-                <div key={player} className="showdetail-bar-row">
-                  <span className="showdetail-bar-name">{player}</span>
-                  <span className="showdetail-bar-track">
-                    <span
-                      className="showdetail-bar-fill"
-                      style={{
-                        width: `${(val / maxBar) * 100}%`,
-                        background: PLAYER_COLORS[player],
-                      }}
-                    />
-                  </span>
-                  <span className="showdetail-bar-val">{val}</span>
+            {activeRing !== null && rings[activeRing] ? (
+              /* SCENE VIEW — previews/locks on the active ring. The right column
+                 swaps to this scene's code + human-readable type + its cast in
+                 color with per-player share. Fades in via .showdetail-scene. */
+              (() => {
+                const ring = rings[activeRing];
+                const castTotal = d3sum(ring.cast, (c) => c.weight) || 1;
+                return (
+                  <div className="showdetail-scene" key={ring.code}>
+                    <p className="showdetail-section-label">SCENE</p>
+                    <p className="showdetail-scene-code">
+                      {ring.code} · {sceneTypeLabel(ring.type)}
+                    </p>
+                    <p className="showdetail-section-label">CAST</p>
+                    <div className="showdetail-scene-cast">
+                      {ring.cast.map((c) => (
+                        <div key={c.player} className="showdetail-scene-castrow">
+                          <span
+                            className="showdetail-tip-swatch"
+                            style={{ background: PLAYER_COLORS[c.player] }}
+                          />
+                          <span
+                            className="showdetail-scene-castname"
+                            style={{ color: PLAYER_COLORS[c.player] }}
+                          >
+                            {c.player}
+                          </span>
+                          <span className="showdetail-scene-castshare">
+                            {Math.round((c.weight / castTotal) * 100)}%
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })()
+            ) : (
+              <div className="showdetail-scene" key="whole-show">
+                {/* headline stats row — weight isn't a timeline, so no "stage time" */}
+                <div className="showdetail-headline">
+                  <div className="showdetail-stat">
+                    <span className="showdetail-stat-num">{sceneCount}</span>
+                    <span className="showdetail-stat-label">SCENES</span>
+                  </div>
+                  <div className="showdetail-stat">
+                    <span className="showdetail-stat-num">{onStage}</span>
+                    <span className="showdetail-stat-label">ON STAGE</span>
+                  </div>
                 </div>
-              ))}
-            </div>
+
+                {openers.length > 0 && (
+                  <p className="showdetail-openers" style={{ color: AMBER }}>
+                    opened the most scenes: {openers.join(', ')}
+                  </p>
+                )}
+
+                {/* per-player SCENE COUNT this show (not time) */}
+                <p className="showdetail-section-label">SCENES THIS SHOW</p>
+                <div className="showdetail-bars">
+                  {barEntries.map(([player, val]) => (
+                    <div key={player} className="showdetail-bar-row">
+                      <span className="showdetail-bar-name">{player}</span>
+                      <span className="showdetail-bar-track">
+                        <span
+                          className="showdetail-bar-fill"
+                          style={{
+                            width: `${(val / maxBar) * 100}%`,
+                            background: PLAYER_COLORS[player],
+                          }}
+                        />
+                      </span>
+                      <span className="showdetail-bar-val">{val}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
 
           {/* Scene hover tooltip: code + type + the cast (names in color). */}
@@ -322,7 +368,7 @@ function ShowDetail({ show, onClose }) {
               role="status"
             >
               <div className="showdetail-tip-title">
-                {rings[tooltip.ring].code} — {sceneTypeLabel(rings[tooltip.ring].type)}
+                {rings[tooltip.ring].code} · {sceneTypeLabel(rings[tooltip.ring].type)}
               </div>
               <div className="showdetail-tip-cast">
                 {rings[tooltip.ring].cast.map((c) => (
