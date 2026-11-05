@@ -32,6 +32,23 @@ function SceneChord({ active }) {
   const [tooltip, setTooltip] = useState(null); // { x, y, player }
   const wrapRef = useRef(null);
 
+  // The chord is never unmounted (only `active` toggles with the phase), so
+  // reset its transient isolate/lock/tooltip the moment the chapter leaves —
+  // otherwise scrolling away and back re-enters with a stale locked player
+  // instead of the neutral "SCENE PARTNERS" resting state. This uses React's
+  // supported "adjust state while rendering on prop change" pattern (a render
+  // that detects active:true->false clears the state and re-renders), which
+  // avoids a setState-in-effect cascade.
+  const [wasActive, setWasActive] = useState(active);
+  if (wasActive !== active) {
+    setWasActive(active);
+    if (!active) {
+      setHoverPlayer(null);
+      setLockedPlayer(null);
+      setTooltip(null);
+    }
+  }
+
   const activePlayer = lockedPlayer ?? hoverPlayer;
 
   // Symmetric co-appearance matrix — exactly as mocks/gen-chord.mjs. Group by

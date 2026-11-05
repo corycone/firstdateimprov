@@ -153,6 +153,12 @@ function SeasonStory() {
   };
 
   const morphActive = phase === 'smallMultiples' || phase === 'profile';
+  // The live mandala ring (and its center readout + export button) must be out
+  // of view not only during the morph but also for the sceneChord chapter —
+  // otherwise the static ring paints through behind the chord as a double
+  // image. MorphLayer stays keyed to morphActive (its minis do NOT belong in
+  // sceneChord); only the base-ring hide extends to the chord phase.
+  const ringHidden = morphActive || phase === 'sceneChord';
   // The legend is hidden only in the small-multiples/profile chapter; it fades
   // back in for the sceneChord chapter (and the plain mandala).
   const legendHidden = phase === 'smallMultiples' || phase === 'profile';
@@ -195,7 +201,7 @@ function SeasonStory() {
             onHoverPlayer={setHoverPlayer}
             lockedPlayer={lockedPlayer}
             onLockPlayer={setLockedPlayer}
-            centerFaded={morphActive}
+            centerFaded={ringHidden}
             onExpandShow={openShowDetail}
           />
           {/* Morph overlay shares the mandala's coordinate space. */}
